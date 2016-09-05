@@ -1,4 +1,3 @@
-
 from itertools import chain
 
 import nltk
@@ -14,17 +13,14 @@ from sklearn_crfsuite import metrics
 from sklearn.cross_validation import train_test_split
 
 def word2features(sent, i):
+    #print sent
     word = sent[i][0]
     postag = sent[i][1]
-
+   
     features = {
         'bias': 1.0,
-        'word.lower()': word.lower(),
         'word[-3:]': word[-3:],
         'word[-2:]': word[-2:],
-        'word.isupper()': word.isupper(),
-        'word.istitle()': word.istitle(),
-        'word.isdigit()': word.isdigit(),
         'postag': postag,
         'postag[:2]': postag[:2],
     }
@@ -32,9 +28,6 @@ def word2features(sent, i):
         word1 = sent[i - 1][0]
         postag1 = sent[i - 1][1]
         features.update({
-            '-1:word.lower()': word1.lower(),
-            '-1:word.istitle()': word1.istitle(),
-            '-1:word.isupper()': word1.isupper(),
             '-1:postag': postag1,
             '-1:postag[:2]': postag1[:2],
         })
@@ -45,15 +38,12 @@ def word2features(sent, i):
         word1 = sent[i + 1][0]
         postag1 = sent[i + 1][1]
         features.update({
-            '+1:word.lower()': word1.lower(),
-            '+1:word.istitle()': word1.istitle(),
-            '+1:word.isupper()': word1.isupper(),
             '+1:postag': postag1,
             '+1:postag[:2]': postag1[:2],
         })
     else:
         features['EOS'] = True
-
+    #print features
     return features
 
 
@@ -62,29 +52,45 @@ def sent2features(sent):
     sent=sent.split()
     for i in range(len(sent)):
         word=sent[i].split("|")[0]
-        postag=nltk.pos_tag(word)
+        postag=nltk.pos_tag([word])[0][1]
+	#print postag
         label=sent[i].split("|")[1]
         tempsent.append((word,postag,label))
     return [word2features(tempsent, i) for i in range(len(tempsent))]
 
 def sent2labels(sent):
-    return [label for token, postag, label in sent]
+    tempsent=[]
+    sent=sent.split()
+    for i in range(len(sent)):
+        word=sent[i].split("|")[0]
+        postag=nltk.pos_tag([word])[0][1]
+        label=sent[i].split("|")[1]
+        tempsent.append((word,postag,label))
+    return [label for token, postag, label in tempsent]
 
 def sent2tokens(sent):
-    return [token for token, postag, label in sent]
+    tempsent=[]
+    sent=sent.split()
+    for i in range(len(sent)):
+        word=sent[i].split("|")[0]
+        postag=nltk.pos_tag([word])[0][1]
+        label=sent[i].split("|")[1]
+        tempsent.append((word,postag,label))
+    return [token for token, postag, label in tempsent]
 
 
 def createdata():
     fread=open("dev_corpus.txt","r")
     lines=fread.readlines()
     train_sents,test_sents = train_test_split(lines,test_size=0.33,random_state=50)
+
     X_train = [sent2features(s) for s in train_sents]
     y_train = [sent2labels(s) for s in train_sents]
 
     X_test = [sent2features(s) for s in test_sents]
     y_test = [sent2labels(s) for s in test_sents]
 
-
+    #print sent2features(train_sents[0])[0]
 
 
 
@@ -95,12 +101,14 @@ def createdata():
         max_iterations=100,
         all_possible_transitions=True
     )
+    print "training"
     crf.fit(X_train, y_train)
 
     labels = list(crf.classes_)
     labels.remove('O')
     print labels
     y_pred = crf.predict(X_test)
+    print y_pred
     metrics.flat_f1_score(y_test, y_pred,average='weighted', labels=labels)
 
-
+createdata()

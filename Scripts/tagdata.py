@@ -1,6 +1,7 @@
 #substitutes the only text with tags
 import sys,os,re
 from nltk.tokenize import TreebankWordTokenizer
+from nltk.tokenize import StanfordTokenizer
 #issue
 #When there are multiple places where same word occurs they should be tagged uniquely
 #For ex when we have n-alkanes and homologenous n-alkanes we tag as n-alkanes=U-MAT and homologenous=B-MAT and n-alkanes=U-MAT
@@ -29,10 +30,13 @@ def tagdata():
             print key,value
             line=line.replace(key,value)
 
-        print line
-        tokenizer = TreebankWordTokenizer()
+        print os.environ['CLASSPATH']
+        tokenizer = StanfordTokenizer()
         #line=line.split()
+        #line=re.split(r'^[A-Za-z0-9]',line)
         line=tokenizer.tokenize(line)
+        print line
+
         for i in range(len(line)):
             if "|" not in line[i]:
                 line[i]=line[i]+"|O"
