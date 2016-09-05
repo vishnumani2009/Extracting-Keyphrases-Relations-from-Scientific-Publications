@@ -1,0 +1,21 @@
+T1 Material 0 8 Hydrides|B-MAT||Hydrides
+T2 Material 31 40 zirconium|B-MAT||zirconium
+T3 Process 234 242 cladding|B-PROC||cladding
+T4 Material 298 302 fuel|B-MAT||fuel
+T5 Material 526 533 hydride|B-MAT||hydride
+T6 Material 386 394 hydrides|B-MAT||hydrides
+T7 Process 426 464 pellet|B-PROC cladding|I-PROC mechanical|I-PROC interaction|L-PROC||pellet cladding mechanical interaction
+T8 Process 466 470 PCMI|B-PROC||PCMI
+T9 Process 518 542 delayed|B-PROC hydride|I-PROC cracking|L-PROC||delayed hydride cracking
+T10 Process 544 547 DHC|B-PROC||DHC
+T11 Process 589 606 thermal|B-PROC expansion|L-PROC||thermal expansion
+T12 Material 610 622 fuel|B-MAT pellets|L-MAT||fuel pellets
+T13 Process 653 661 cladding|B-PROC||cladding
+T14 Material 741 748 hydride|B-MAT||hydride
+T15 Process 792 795 DHC|B-PROC||DHC
+T16 Process 831 850 cracking|B-PROC phenomenon|L-PROC||cracking phenomenon
+T17 Material 876 884 hydrogen|B-MAT||hydrogen
+T18 Process 876 894 hydrogen|B-PROC diffusion|L-PROC||hydrogen diffusion
+T19 Task 908 928 local|B-TSK hydride|I-TSK growth|L-TSK||local hydride growth
+T20 Process 947 980 hydrostatic|B-PROC tensile|I-PROC stress|I-PROC raiser|L-PROC||hydrostatic tensile stress raiser
+T21 Material 433 441 cladding|B-MAT||cladding

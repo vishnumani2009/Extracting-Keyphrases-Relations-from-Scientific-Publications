@@ -1,0 +1,15 @@
+T1 Process 39 70 value|B-PROC of|I-PROC the|I-PROC measuring|I-PROC resistor|L-PROC||value of the measuring resistor
+T2 Process 72 74 Rm|B-PROC||Rm
+T3 Material 427 466 NI-USB|B-MAT 6009|I-MAT analog-to-digital|I-MAT converter|L-MAT||NI-USB 6009 analog-to-digital converter
+T4 Material 322 336 4.7kΩ|B-MAT resistor|L-MAT||4.7kΩ resistor
+T5 Material 375 402 saturated|B-MAT calomel|I-MAT electrode|L-MAT||saturated calomel electrode
+T6 Process 472 500 electrochemical|B-PROC noise|I-PROC signal|L-PROC||electrochemical noise signal
+T7 Material 520 547 in-house|B-MAT developed|I-MAT software|L-MAT||in-house developed software
+T8 Material 778 785 dataset|B-MAT||dataset
+T10 Task 674 708 obtain|B-TSK a|I-TSK single|I-TSK value|I-TSK of|I-TSK potential|L-TSK||obtain a single value of potential
+T11 Task 979 1051 accurate|B-TSK recording|I-TSK of|I-TSK the|I-TSK potential|I-TSK noise|I-TSK in|I-TSK the|I-TSK frequencies|I-TSK of|I-TSK interest|L-TSK||accurate recording of the potential noise in the frequencies of interest
+T12 Process 97 114 corrosion|B-PROC process|L-PROC||corrosion process
+T13 Process 136 161 value|B-PROC of|I-PROC noise|I-PROC resistance|L-PROC||value of noise resistance
+T14 Task 175 199 validate|B-TSK this|I-TSK conclusion|L-TSK||validate this conclusion
+T15 Material 257 294 pair|B-MAT of|I-MAT nominally|I-MAT identical|I-MAT specimens|L-MAT||pair of nominally identical specimens
+T16 Task 13 33 theoretical|B-TSK analysis|L-TSK||theoretical analysis

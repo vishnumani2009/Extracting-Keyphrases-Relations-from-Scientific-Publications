@@ -1,0 +1,23 @@
+T1 Process 40 63 fragmentation|B-PROC processes|L-PROC||fragmentation processes
+T2 Material 67 87 polyatomic|B-MAT molecules|L-MAT||polyatomic molecules
+T3 Material 102 131 intense|B-MAT ultrafast|I-MAT laser|I-MAT field|L-MAT||intense ultrafast laser field
+T4 Material 225 236 laser|B-MAT field|L-MAT||laser field
+T5 Material 274 294 chirped|B-MAT laser|I-MAT pulses|L-MAT||chirped laser pulses
+T6 Process 393 430 laser|B-PROC induced|I-PROC molecular|I-PROC fragmentation|L-PROC||laser induced molecular fragmentation
+T7 Material 436 468 chirped|B-MAT femtosecond|I-MAT laser|I-MAT pulses|L-MAT||chirped femtosecond laser pulses
+T8 Task 604 632 fragment|B-TSK channel|I-TSK enhancement|L-TSK||fragment channel enhancement
+T9 Task 748 806 observation|B-TSK of|I-TSK a|I-TSK coherently|I-TSK enhanced|I-TSK fragmentation|I-TSK pathway|L-TSK||observation of a coherently enhanced fragmentation pathway
+T10 Material 810 826 n-propyl|B-MAT benzene|L-MAT||n-propyl benzene
+T11 Material 862 883 fragmentation|B-MAT channel|L-MAT||fragmentation channel
+T12 Material 913 929 n-propyl|B-MAT benzene|L-MAT||n-propyl benzene
+T13 Material 953 958 C3H3+|B-MAT||C3H3+
+T14 Material 1002 1013 laser|B-MAT pulse|L-MAT||laser pulse
+T15 Process 688 704 molecular|B-PROC system|L-PROC||molecular system
+T16 Material 1055 1063 channels|B-MAT||channels
+T17 Material 1140 1145 C3H3+|B-MAT||C3H3+
+T18 Material 1151 1176 negatively|B-MAT chirped|I-MAT pulses|L-MAT||negatively chirped pulses
+T19 Material 1221 1235 positive|B-MAT chirp|L-MAT||positive chirp
+T20 Material 1283 1304 heavier|B-MAT fragment|I-MAT ions|L-MAT||heavier fragment ions
+T21 Material 1361 1369 molecule|B-MAT||molecule
+T22 Material 1406 1411 chirp|B-MAT||chirp
+T23 Task 296 309 fragmentation|B-TSK||fragmentation

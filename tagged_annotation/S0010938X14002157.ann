@@ -1,0 +1,47 @@
+T1 Material 2 12 surfactant|B-MAT||surfactant
+T2 Material 18 38 surface|B-MAT active|I-MAT agent|L-MAT||surface active agent
+T3 Material 55 65 surfactant|B-MAT||surfactant
+T4 Material 88 130 compounds|B-MAT which|I-MAT improve|I-MAT the|I-MAT dispersability|L-MAT||compounds which improve the dispersability
+T5 Material 248 265 metallic|B-MAT material|L-MAT||metallic material
+T6 Task 309 329 corrosion|B-TSK protection|L-TSK||corrosion protection
+T7 Task 104 130 improve|B-TSK the|I-TSK dispersability|L-TSK||improve the dispersability
+T8 Material 138 140 CI|B-MAT||CI
+T9 Material 148 152 acid|B-MAT||acid
+T10 Material 550 572 nonylphenol|B-MAT ethoxylate|L-MAT||nonylphenol ethoxylate
+T11 Material 574 577 NPE|B-MAT||NPE
+T12 Material 470 481 surfactants|B-MAT||surfactants
+T13 Material 520 543 alkylphenol|B-MAT ethoxylates|L-MAT||alkylphenol ethoxylates
+T14 Material 760 785 quaternary|B-MAT ammonium|I-MAT salts|L-MAT||quaternary ammonium salts
+T15 Material 790 814 amines|B-MAT (when|I-MAT protonated)|L-MAT||amines (when protonated)
+T16 Material 850 876 cationic|B-MAT surfactants|I-MAT class|L-MAT||cationic surfactants class
+T17 Material 850 876 cationic|B-MAT surfactants|I-MAT class|L-MAT||cationic surfactants class
+T19 Material 1281 1308 N-dodecylpyridinium|B-MAT bromide|L-MAT||N-dodecylpyridinium bromide
+T20 Material 1310 1314 DDPB|B-MAT||DDPB
+T21 Material 1335 1352 Anionic|B-MAT sulphates|L-MAT||Anionic sulphates
+T22 Material 1354 1373 anionic|B-MAT sulphonates|L-MAT||anionic sulphonates
+T23 Material 608 612 NPEs|B-MAT||NPEs
+T24 Material 393 433 surfactant|B-MAT or|I-MAT active|I-MAT corrosion|I-MAT inhibitor|L-MAT||surfactant or active corrosion inhibitor
+T25 Material 470 481 surfactants|B-MAT||surfactants
+T26 Material 702 729 ethoxylated|B-MAT linear|I-MAT alcohols|L-MAT||ethoxylated linear alcohols
+T27 Material 932 938 amines|B-MAT||amines
+T28 Material 958 968 surfactant|B-MAT||surfactant
+T29 Process 976 992 protonated|B-PROC state|L-PROC||protonated state
+T30 Material 1045 1074 quaternary|B-MAT ammonium|I-MAT compounds|L-MAT||quaternary ammonium compounds
+T31 Material 1103 1108 quats|B-MAT||quats
+T32 Material 1133 1172 Long-chain|B-MAT quaternary|I-MAT ammonium|I-MAT bromides|L-MAT||Long-chain quaternary ammonium bromides
+T33 Material 1221 1236 steel|B-MAT materials|L-MAT||steel materials
+T34 Material 1266 1276 surfactant|B-MAT||surfactant
+T35 Material 1375 1405 alkoxylated|B-MAT alkylphenol|I-MAT resins|L-MAT||alkoxylated alkylphenol resins
+T36 Material 1411 1443 polyoxyethylene|B-MAT sorbitan|I-MAT oleates|L-MAT||polyoxyethylene sorbitan oleates
+T37 Material 1460 1471 surfactants|B-MAT||surfactants
+T38 Material 1460 1471 surfactants|B-MAT||surfactants
+T39 Material 1460 1471 surfactants|B-MAT||surfactants
+T40 Material 1460 1471 surfactants|B-MAT||surfactants
+T41 Material 1513 1523 surfactant|B-MAT||surfactant
+T42 Material 1529 1608 blend|B-MAT of|I-MAT polyethylene|I-MAT glycol|I-MAT esters|I-MAT of|I-MAT fatty|I-MAT acids|I-MAT and|I-MAT ethoxylated|I-MAT alkylphenols|L-MAT||blend of polyethylene glycol esters of fatty acids and ethoxylated alkylphenols
+T43 Material 1639 1650 surfactants|B-MAT||surfactants
+T44 Material 157 168 emulsifiers|B-MAT||emulsifiers
+T45 Material 179 197 dispersed|B-MAT emulsion|L-MAT||dispersed emulsion
+T46 Material 888 894 cation|B-MAT||cation
+T18 Material 902 923 surface|B-MAT active|I-MAT specie|L-MAT||surface active specie
+T47 Material 1213 1216 CIs|B-MAT||CIs

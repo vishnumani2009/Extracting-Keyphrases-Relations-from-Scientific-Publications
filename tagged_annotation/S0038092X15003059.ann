@@ -1,0 +1,24 @@
+T1 Material 31 41 solar|B-MAT cell|L-MAT||solar cell
+T2 Process 113 116 CPV|B-PROC||CPV
+T3 Process 220 240 High|B-PROC Concentrator|I-PROC PV|L-PROC||High Concentrator PV
+T4 Process 242 246 HCPV|B-PROC||HCPV
+T5 Process 442 445 CPV|B-PROC||CPV
+T6 Process 740 759 maximum|B-PROC power|I-PROC point|L-PROC||maximum power point
+T7 Process 761 764 MPP|B-PROC||MPP
+T8 Process 670 693 open-circuit|B-PROC conditions|L-PROC||open-circuit conditions
+T9 Material 650 654 cell|B-MAT||cell
+T10 Material 200 204 cell|B-MAT||cell
+T11 Material 867 878 solar|B-MAT cells|L-MAT||solar cells
+T12 Process 831 859 electrical|B-PROC energy|I-PROC generation|L-PROC||electrical energy generation
+T13 Task 952 990 predicting|B-TSK the|I-TSK cell|I-TSK temperature|I-TSK at|I-TSK MPP|L-TSK||predicting the cell temperature at MPP
+T14 Process 987 990 MPP|B-PROC||MPP
+T15 Material 967 971 cell|B-MAT||cell
+T16 Process 1155 1186 artificial|B-PROC neural|I-PROC network|I-PROC model|L-PROC||artificial neural network model
+T17 Task 1190 1219 estimate|B-TSK the|I-TSK cell|I-TSK temperature|L-TSK||estimate the cell temperature
+T18 Material 1203 1207 cell|B-MAT||cell
+T19 Process 1259 1285 open-circuit|B-PROC voltage|I-PROC model|L-PROC||open-circuit voltage model
+T20 Task 1556 1584 cell|B-TSK temperature|I-TSK calculation|L-TSK||cell temperature calculation
+T21 Material 1556 1560 cell|B-MAT||cell
+T22 Task 181 216 calculation|B-TSK of|I-TSK the|I-TSK cell|I-TSK temperature|L-TSK||calculation of the cell temperature
+T23 Task 17 55 prediction|B-TSK of|I-TSK solar|I-TSK cell’s|I-TSK temperature|L-TSK||prediction of solar cell’s temperature
+T24 Task 636 666 calculate|B-TSK the|I-TSK cell|I-TSK temperature|L-TSK||calculate the cell temperature

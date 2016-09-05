@@ -1,0 +1,16 @@
+T1 Process 2 35 fully-coupled|B-PROC numerical|I-PROC framework|L-PROC||fully-coupled numerical framework
+T2 Process 40 55 two-phase|B-PROC flows|L-PROC||two-phase flows
+T3 Process 91 106 surface|B-PROC tension|L-PROC||surface tension
+T4 Process 149 172 fully-coupled|B-PROC framework|L-PROC||fully-coupled framework
+T5 Task 195 216 compare|B-TSK the|I-TSK influence|L-TSK||compare the influence
+T6 Process 224 249 surface|B-PROC tension|I-PROC treatment|L-PROC||surface tension treatment
+T7 Process 257 310 time-step|B-PROC restrictions|I-PROC resulting|I-PROC from|I-PROC capillary|I-PROC waves|L-PROC||time-step restrictions resulting from capillary waves
+T8 Process 350 420 restrictions|B-PROC on|I-PROC the|I-PROC numerical|I-PROC time-step|I-PROC resulting|I-PROC from|I-PROC capillary|I-PROC waves|L-PROC||restrictions on the numerical time-step resulting from capillary waves
+T9 Process 463 501 numerical|B-PROC treatment|I-PROC of|I-PROC surface|I-PROC tension|L-PROC||numerical treatment of surface tension
+T10 Material 295 310 capillary|B-MAT waves|L-MAT||capillary waves
+T11 Material 405 420 capillary|B-MAT waves|L-MAT||capillary waves
+T12 Process 509 524 surface|B-PROC tension|L-PROC||surface tension
+T13 Task 717 745 treatment|B-TSK of|I-TSK surface|I-TSK tension|L-TSK||treatment of surface tension
+T14 Material 869 884 capillary|B-MAT waves|L-MAT||capillary waves
+T15 Task 842 884 spatiotemporal|B-TSK sampling|I-TSK of|I-TSK capillary|I-TSK waves|L-TSK||spatiotemporal sampling of capillary waves
+T16 Process 914 943 applied|B-PROC numerical|I-PROC methodology|L-PROC||applied numerical methodology

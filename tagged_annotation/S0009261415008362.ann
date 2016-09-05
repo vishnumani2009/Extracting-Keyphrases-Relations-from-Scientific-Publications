@@ -1,0 +1,27 @@
+T1 Task 65 75 benchmarks|B-TSK||benchmarks
+T2 Process 8 32 quantum|B-PROC dynamical|I-PROC method|L-PROC||quantum dynamical method
+T3 Process 146 165 tunnelling|B-PROC dynamics|L-PROC||tunnelling dynamics
+T4 Process 115 134 A|B-PROC model|I-PROC Hamiltonian|L-PROC||A model Hamiltonian
+T5 Process 257 264 MP/SOFT|B-PROC||MP/SOFT
+T6 Process 336 383 configuration|B-PROC interaction|I-PROC (CI)|I-PROC expansion|I-PROC method|L-PROC||configuration interaction (CI) expansion method
+T7 Process 393 417 two-layer|B-PROC version|I-PROC of|I-PROC CCS|L-PROC||two-layer version of CCS
+T8 Process 419 425 2L-CCS|B-PROC||2L-CCS
+T9 Process 433 448 The|B-PROC Hamiltonian|L-PROC||The Hamiltonian
+T10 Process 900 940 superconducting|B-PROC quantum|I-PROC interface|I-PROC device|L-PROC||superconducting quantum interface device
+T11 Process 942 947 SQUID|B-PROC||SQUID
+T12 Process 463 492 1-dimensional|B-PROC tunnelling|I-PROC mode|L-PROC||1-dimensional tunnelling mode
+T13 Process 507 538 (M−1)-dimensional|B-PROC harmonic|I-PROC bath|L-PROC||(M−1)-dimensional harmonic bath
+T14 Task 554 573 system-bath|B-TSK problem|L-TSK||system-bath problem
+T15 Process 609 645 Caldeira-Leggett|B-PROC model|I-PROC of|I-PROC tunnelling|L-PROC||Caldeira-Leggett model of tunnelling
+T16 Process 684 695 Hamiltonian|B-PROC||Hamiltonian
+T17 Process 776 794 System-bath|B-PROC models|L-PROC||System-bath models
+T18 Process 853 894 superconductivity|B-PROC at|I-PROC a|I-PROC Josephson|I-PROC junction|L-PROC||superconductivity at a Josephson junction
+T19 Process 969 991 Caldeira-Leggett|B-PROC model|L-PROC||Caldeira-Leggett model
+T20 Process 176 225 multidimensional|B-PROC asymmetric|I-PROC double|I-PROC well|I-PROC potential|L-PROC||multidimensional asymmetric double well potential
+T21 Process 274 285 CCS|B-PROC methods|L-PROC||CCS methods
+T22 Process 336 361 configuration|B-PROC interaction|L-PROC||configuration interaction
+T23 Process 363 365 CI|B-PROC||CI
+T24 Process 732 746 harmonic|B-PROC modes|L-PROC||harmonic modes
+T25 Task 821 828 physics|B-TSK||physics
+T26 Process 1026 1060 magnetic|B-PROC and|I-PROC conductance|I-PROC phenomena|L-PROC||magnetic and conductance phenomena
+T27 Task 1068 1084 spin-bath|B-TSK regime|L-TSK||spin-bath regime

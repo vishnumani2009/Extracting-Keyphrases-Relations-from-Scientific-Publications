@@ -1,0 +1,28 @@
+T1 Process 374 394 synthetic|B-PROC mechanisms|L-PROC||synthetic mechanisms
+T2 Process 441 462 separation|B-PROC techniques|L-PROC||separation techniques
+T3 Material 55 71 chiral|B-MAT molecules|L-MAT||chiral molecules
+T4 Task 223 263 echniques|B-TSK to|I-TSK secure|I-TSK enantiopure|I-TSK products|L-TSK||echniques to secure enantiopure products
+T5 Material 424 436 stereoisomer|B-MAT||stereoisomer
+T6 Material 483 494 enantiomers|B-MAT||enantiomers
+T7 Material 595 629 enantiopure|B-MAT reagents|I-MAT or|I-MAT substrates|L-MAT||enantiopure reagents or substrates
+T8 Material 667 689 chiral|B-MAT building|I-MAT blocks|L-MAT||chiral building blocks
+T9 Material 693 719 enantioselective|B-MAT catalysts|L-MAT||enantioselective catalysts
+T10 Process 632 648 synthesis|B-PROC routes|L-PROC||synthesis routes
+T11 Process 733 765 enantiomer|B-PROC separation|I-PROC techniques|L-PROC||enantiomer separation techniques
+T12 Material 788 813 chiral|B-MAT selector|I-MAT molecules|L-MAT||chiral selector molecules
+T13 Material 862 886 diastereomeric|B-MAT complexes|L-MAT||diastereomeric complexes
+T14 Material 933 953 enantiopure|B-MAT products|L-MAT||enantiopure products
+T15 Process 1050 1069 enantiomeric|B-PROC excess|L-PROC||enantiomeric excess
+T18 Process 1087 1106 degree|B-PROC of|I-PROC chirality|L-PROC||degree of chirality
+T19 Process 1134 1155 Chiral|B-PROC discrimination|L-PROC||Chiral discrimination
+T20 Material 1164 1177 optical|B-MAT means|L-MAT||optical means
+T21 Process 1340 1350 absorption|B-PROC||absorption
+T22 Task 1553 1574 enantiomer|B-TSK separation|L-TSK||enantiomer separation
+T23 Process 1419 1463 twisting|B-PROC of|I-PROC polarisation|I-PROC in|I-PROC optical|I-PROC rotation|L-PROC||twisting of polarisation in optical rotation
+T16 Task 925 991 achieve|B-TSK enantiopure|I-TSK products,|I-TSK irrespective|I-TSK of|I-TSK the|I-TSK synthetic|I-TSK method|L-TSK||achieve enantiopure products, irrespective of the synthetic method
+T24 Process 975 991 synthetic|B-PROC method|L-PROC||synthetic method
+T17 Task 1008 1069 means|B-TSK to|I-TSK measure,|I-TSK and|I-TSK duly|I-TSK quantitate|I-TSK the|I-TSK enantiomeric|I-TSK excess|L-TSK||means to measure, and duly quantitate the enantiomeric excess
+T25 Material 1249 1258 molecules|B-MAT||molecules
+T26 Process 1471 1486 optical|B-PROC methods|L-PROC||optical methods
+T27 Process 270 315 methods,|B-PROC mostly|I-PROC multi-step|I-PROC and|I-PROC time-consuming|L-PROC||methods, mostly multi-step and time-consuming
+T28 Material 1114 1132 molecular|B-MAT products|L-MAT||molecular products

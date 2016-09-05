@@ -1,0 +1,22 @@
+T1 Process 125 146 variational|B-PROC framework|L-PROC||variational framework
+T2 Task 0 42 The|B-TSK dynamics|I-TSK of|I-TSK various|I-TSK physical|I-TSK phenomena|L-TSK||The dynamics of various physical phenomena
+T3 Process 167 189 variational|B-PROC principles|L-PROC||variational principles
+T4 Process 317 325 approach|B-PROC||approach
+T5 Process 378 395 single|B-PROC functional|L-PROC||single functional
+T6 Process 427 442 action|B-PROC integral|L-PROC||action integral
+T7 Process 402 412 Lagrangian|B-PROC||Lagrangian
+T8 Process 444 465 Hamiltonian|B-PROC mechanics|L-PROC||Hamiltonian mechanics
+T9 Process 471 508 reformulation|B-PROC of|I-PROC Lagrangian|I-PROC mechanics|L-PROC||reformulation of Lagrangian mechanics
+T10 Material 68 77 pendulums|B-MAT||pendulums
+T11 Material 79 86 planets|B-MAT||planets
+T12 Material 91 102 water|B-MAT waves|L-MAT||water waves
+T13 Process 24 42 physical|B-PROC phenomena|L-PROC||physical phenomena
+T14 Process 56 102 movement|B-PROC of|I-PROC pendulums,|I-PROC planets,|I-PROC or|I-PROC water|I-PROC waves|L-PROC||movement of pendulums, planets, or water waves
+T15 Material 537 546 framework|B-MAT||framework
+T16 Task 550 591 study|B-TSK the|I-TSK symmetry|I-TSK properties|I-TSK of|I-TSK a|I-TSK system|L-TSK||study the symmetry properties of a system
+T17 Process 707 726 Hamiltonian|B-PROC systems|L-PROC||Hamiltonian systems
+T18 Process 776 782 system|B-PROC||system
+T20 Process 892 911 Hamiltonian|B-PROC systems|L-PROC||Hamiltonian systems
+T19 Task 942 965 numerical|B-TSK approximation|L-TSK||numerical approximation
+T21 Process 352 372 dynamics|B-PROC of|I-PROC a|I-PROC system|L-PROC||dynamics of a system
+T22 Task 336 372 express|B-TSK all|I-TSK the|I-TSK dynamics|I-TSK of|I-TSK a|I-TSK system|L-TSK||express all the dynamics of a system

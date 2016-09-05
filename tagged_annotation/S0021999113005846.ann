@@ -1,0 +1,25 @@
+T1 Process 165 172 forcing|B-PROC||forcing
+T2 Process 191 222 wind|B-PROC stress|I-PROC at|I-PROC the|I-PROC free|I-PROC surface|L-PROC||wind stress at the free surface
+T3 Process 229 257 astronomical|B-PROC tidal|I-PROC potential|L-PROC||astronomical tidal potential
+T4 Process 267 274 damping|B-PROC||damping
+T5 Process 295 338 turbulent|B-PROC stress|I-PROC of|I-PROC a|I-PROC bottom|I-PROC boundary|I-PROC layer|L-PROC||turbulent stress of a bottom boundary layer
+T6 Process 371 386 forced|B-PROC response|L-PROC||forced response
+T7 Material 402 421 shallow-water|B-MAT waves|L-MAT||shallow-water waves
+T8 Material 442 454 Kelvin|B-MAT waves|L-MAT||Kelvin waves
+T9 Process 500 517 natural|B-PROC frequency|L-PROC||natural frequency
+T10 Process 518 520 ωf|B-PROC||ωf
+T11 Process 542 559 forcing|B-PROC frequency|L-PROC||forcing frequency
+T12 Process 560 561 ω|B-PROC||ω
+T13 Task 772 791 numerical|B-TSK solutions|L-TSK||numerical solutions
+T14 Material 795 823 near-resonantly|B-MAT forced|I-MAT waves|L-MAT||near-resonantly forced waves
+T16 Task 81 114 problems|B-TSK with|I-TSK forcing|I-TSK and|I-TSK damping|L-TSK||problems with forcing and damping
+T15 Task 13 37 free|B-TSK Kelvin|I-TSK wave|I-TSK problem|L-TSK||free Kelvin wave problem
+T17 Material 191 195 wind|B-MAT||wind
+T18 Material 487 492 waves|B-MAT||waves
+T19 Process 643 644 ω|B-PROC||ω
+T20 Process 645 647 ωf|B-PROC||ωf
+T21 Process 738 750 weak|B-PROC damping|L-PROC||weak damping
+T22 Process 755 761 |ω−ωf||B-PROC|||ω−ωf|
+T23 Process 854 856 ωf|B-PROC||ωf
+T24 Process 878 900 spatial|B-PROC discretisation|L-PROC||spatial discretisation
+T25 Material 18 29 Kelvin|B-MAT wave|L-MAT||Kelvin wave

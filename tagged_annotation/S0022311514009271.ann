@@ -1,0 +1,19 @@
+T1 Material 273 278 grain|B-MAT||grain
+T2 Task 261 297 elucidating|B-TSK grain|I-TSK boundary|I-TSK stability|L-TSK||elucidating grain boundary stability
+T3 Task 330 383 predict|B-TSK the|I-TSK relative|I-TSK stability|I-TSK of|I-TSK the|I-TSK defect|I-TSK energies|L-TSK||predict the relative stability of the defect energies
+T4 Process 389 412 Morelon|B-PROC potential|I-PROC model|L-PROC||Morelon potential model
+T5 Task 462 497 replicate|B-TSK defect|I-TSK formation|I-TSK energies|L-TSK||replicate defect formation energies
+T6 Process 580 615 Morl|B-PROC and|I-PROC the|I-PROC Arima|I-PROC potential|I-PROC models|L-PROC||Morl and the Arima potential models
+T7 Process 673 689 rigid|B-PROC ion|I-PROC models|L-PROC||rigid ion models
+T8 Process 777 789 shell|B-PROC models|L-PROC||shell models
+T9 Process 825 847 Catlow|B-PROC potential|I-PROC model|L-PROC||Catlow potential model
+T10 Process 853 902 Morl,|B-PROC along|I-PROC with|I-PROC the|I-PROC Grimes|I-PROC shell|I-PROC potential|I-PROC model|L-PROC||Morl, along with the Grimes shell potential model
+T11 Material 950 956 oxygen|B-MAT||oxygen
+T12 Task 915 966 reproduce|B-TSK the|I-TSK activation|I-TSK energy|I-TSK of|I-TSK oxygen|I-TSK migration|L-TSK||reproduce the activation energy of oxygen migration
+T13 Material 1066 1069 UO2|B-MAT||UO2
+T14 Process 1104 1118 Morl|B-PROC potential|L-PROC||Morl potential
+T15 Material 1131 1137 cation|B-MAT||cation
+T16 Material 1188 1194 cation|B-MAT||cation
+T17 Process 1315 1327 grain|B-PROC growth|L-PROC||grain growth
+T18 Process 972 986 migration|B-PROC path|L-PROC||migration path
+T19 Process 1029 1048 diffusion|B-PROC mechanism|L-PROC||diffusion mechanism

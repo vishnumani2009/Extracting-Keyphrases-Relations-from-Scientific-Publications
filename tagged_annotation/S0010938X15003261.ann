@@ -1,0 +1,30 @@
+T1 Task 910 937 predict|B-TSK corrosion|I-TSK behaviour|L-TSK||predict corrosion behaviour
+T2 Process 846 891 Volta|B-PROC potential|I-PROC differences|I-PROC in|I-PROC microstructure|L-PROC||Volta potential differences in microstructure
+T3 Process 12 27 Volta|B-PROC potential|L-PROC||Volta potential
+T4 Process 29 30 Ψ|B-PROC||Ψ
+T5 Process 39 59 potential|B-PROC difference|L-PROC||potential difference
+T6 Process 12 27 Volta|B-PROC potential|L-PROC||Volta potential
+T7 Process 204 240 electrochemical|B-PROC behaviour|I-PROC of|I-PROC a|I-PROC metal|L-PROC||electrochemical behaviour of a metal
+T8 Process 254 292 scanning|B-PROC Kelvin|I-PROC probe|I-PROC force|I-PROC microscopy|L-PROC||scanning Kelvin probe force microscopy
+T9 Process 294 299 SKPFM|B-PROC||SKPFM
+T10 Task 318 340 detection|B-TSK of|I-TSK local|I-TSK EWF|L-TSK||detection of local EWF
+T11 Task 378 405 Volta|B-TSK potential|I-TSK differences|L-TSK||Volta potential differences
+T12 Task 407 409 ΔΨ|B-TSK||ΔΨ
+T13 Material 422 449 atomic|B-MAT force|I-MAT microscopy|I-MAT tip|L-MAT||atomic force microscopy tip
+T14 Material 459 468 Pt|B-MAT coated|L-MAT||Pt coated
+T15 Material 478 491 metal|B-MAT surface|L-MAT||metal surface
+T16 Process 530 535 SKPFM|B-PROC||SKPFM
+T17 Process 621 636 Volta|B-PROC potential|L-PROC||Volta potential
+T18 Process 657 684 property|B-PROC of|I-PROC a|I-PROC metal|I-PROC surface|L-PROC||property of a metal surface
+T19 Process 168 188 measureable|B-PROC quantity|L-PROC||measureable quantity
+T20 Process 12 27 Volta|B-PROC potential|L-PROC||Volta potential
+T21 Task 704 740 understand|B-TSK electrochemical|I-TSK processes|L-TSK||understand electrochemical processes
+T22 Process 969 1018 larger|B-PROC (ΔΨ)|I-PROC indicate|I-PROC increased|I-PROC surface|I-PROC reactivity|L-PROC||larger (ΔΨ) indicate increased surface reactivity
+T24 Process 1062 1089 Volta|B-PROC potential|I-PROC differences|L-PROC||Volta potential differences
+T25 Material 1112 1119 dry|B-MAT air|L-MAT||dry air
+T26 Process 1130 1154 free|B-PROC corrosion|I-PROC potential|L-PROC||free corrosion potential
+T27 Process 1156 1161 Ecorr|B-PROC||Ecorr
+T28 Material 235 240 metal|B-MAT||metal
+T29 Material 568 579 ambient|B-MAT air|L-MAT||ambient air
+T30 Material 671 684 metal|B-MAT surface|L-MAT||metal surface
+T31 Process 715 740 electrochemical|B-PROC processes|L-PROC||electrochemical processes

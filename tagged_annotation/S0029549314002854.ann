@@ -1,0 +1,10 @@
+T1 Material 4 9 pipes|B-MAT||pipes
+T2 Material 32 35 RCS|B-MAT||RCS
+T3 Material 52 55 RCS|B-MAT||RCS
+T4 Material 76 127 austenitic|B-MAT or|I-MAT austenitic|I-MAT &|I-MAT ferritic|I-MAT stainless|I-MAT steel|L-MAT||austenitic or austenitic & ferritic stainless steel
+T5 Material 162 167 pipes|B-MAT||pipes
+T6 Material 772 776 pipe|B-MAT||pipe
+T7 Material 967 972 fluid|B-MAT||fluid
+T8 Material 980 985 pipes|B-MAT||pipes
+T9 Task 296 311 Event|B-TSK screening|L-TSK||Event screening
+T10 Material 899 905 alloys|B-MAT||alloys

@@ -1,0 +1,27 @@
+T1 Task 26 44 optical|B-TSK properties|L-TSK||optical properties
+T2 Process 95 117 electronic|B-PROC environment|L-PROC||electronic environment
+T3 Process 271 288 Optical|B-PROC processes|L-PROC||Optical processes
+T4 Process 300 325 resonance|B-PROC energy|I-PROC transfer|L-PROC||resonance energy transfer
+T5 Material 493 509 absorption|B-MAT bands|L-MAT||absorption bands
+T6 Process 529 549 electronic|B-PROC influence|L-PROC||electronic influence
+T7 Process 1115 1137 quantum|B-PROC electrodynamic|L-PROC||quantum electrodynamic
+T8 Process 1139 1142 QED|B-PROC||QED
+T9 Process 1168 1191 experimental|B-PROC procedures|L-PROC||experimental procedures
+T10 Process 357 400 local|B-PROC environment|I-PROC of|I-PROC molecular|I-PROC chromophores|L-PROC||local environment of molecular chromophores
+T11 Process 616 642 light-harvesting|B-PROC complexes|L-PROC||light-harvesting complexes
+T12 Material 684 735 photosynthetic|B-MAT antenna|I-MAT molecule|I-MAT bacteriochlorophyll|L-MAT||photosynthetic antenna molecule bacteriochlorophyll
+T13 Material 742 758 absorption|B-MAT bands|L-MAT||absorption bands
+T14 Process 836 851 energy|B-PROC transfer|L-PROC||energy transfer
+T15 Task 963 1035 influence|B-TSK of|I-TSK a|I-TSK neighbouring,|I-TSK off-resonant,|I-TSK molecule|I-TSK on|I-TSK photon|I-TSK absorption|L-TSK||influence of a neighbouring, off-resonant, molecule on photon absorption
+T16 Process 1076 1102 induced|B-PROC circular|I-PROC dichroism|L-PROC||induced circular dichroism
+T17 Process 1298 1330 circular|B-PROC differential|I-PROC absorption|L-PROC||circular differential absorption
+T18 Material 48 53 atoms|B-MAT||atoms
+T19 Material 58 67 molecules|B-MAT||molecules
+T20 Process 119 138 Local|B-PROC field|I-PROC effects|L-PROC||Local field effects
+T21 Material 176 209 nanostructured|B-MAT photonic|I-MAT materials|L-MAT||nanostructured photonic materials
+T22 Material 904 922 carotenoid|B-MAT species|L-MAT||carotenoid species
+T23 Process 1018 1035 photon|B-PROC absorption|L-PROC||photon absorption
+T24 Material 1006 1014 molecule|B-MAT||molecule
+T25 Material 1018 1024 photon|B-MAT||photon
+T26 Material 1226 1241 chiral|B-MAT mediator|L-MAT||chiral mediator
+T27 Material 1270 1286 achiral|B-MAT acceptor|L-MAT||achiral acceptor

@@ -1,0 +1,34 @@
+T1 Process 21 37 thermo-oxidation|B-PROC||thermo-oxidation
+T2 Material 65 69 ITER|B-MAT||ITER
+T3 Material 121 127 vessel|B-MAT||vessel
+T4 Material 176 182 helium|B-MAT||helium
+T5 Material 205 219 cooling|B-MAT system|L-MAT||cooling system
+T6 Task 262 276 reconditioning|B-TSK||reconditioning
+T7 Task 297 313 plasma|B-TSK operation|L-TSK||plasma operation
+T8 Material 337 343 oxygen|B-MAT||oxygen
+T9 Material 412 418 vessel|B-MAT||vessel
+T10 Material 460 473 cooling|B-MAT tubes|L-MAT||cooling tubes
+T11 Task 582 618 treatment|B-TSK of|I-TSK ITER|I-TSK carbon|I-TSK co-deposits|L-TSK||treatment of ITER carbon co-deposits
+T12 Material 685 693 divertor|B-MAT||divertor
+T13 Material 713 722 main|B-MAT wall|L-MAT||main wall
+T14 Material 727 739 remote|B-MAT parts|L-MAT||remote parts
+T15 Material 795 802 tritium|B-MAT||tritium
+T16 Material 827 840 carbon|B-MAT layers|L-MAT||carbon layers
+T17 Material 842 846 ITER|B-MAT||ITER
+T18 Material 860 876 carbon|B-MAT materials|L-MAT||carbon materials
+T19 Material 884 892 divertor|B-MAT||divertor
+T20 Material 1012 1034 nuclear|B-MAT fusion|I-MAT devices|L-MAT||nuclear fusion devices
+T21 Material 1036 1042 DIII-D|B-MAT||DIII-D
+T22 Material 1044 1047 TCV|B-MAT||TCV
+T23 Material 1069 1076 JT-60SA|B-MAT||JT-60SA
+T24 Material 1078 1083 KSTAR|B-MAT||KSTAR
+T25 Material 1085 1099 Wenderstein-7X|B-MAT||Wenderstein-7X
+T26 Material 1105 1120 carbon|B-MAT elements|L-MAT||carbon elements
+T27 Task 1129 1158 removal|B-TSK of|I-TSK carbon|I-TSK co-deposits|L-TSK||removal of carbon co-deposits
+T28 Task 1208 1230 plasma|B-TSK density|I-TSK control|L-TSK||plasma density control
+T29 Material 1232 1236 dust|B-MAT||dust
+T30 Material 1423 1427 ITER|B-MAT||ITER
+T31 Material 1458 1474 carbon|B-MAT materials|L-MAT||carbon materials
+T32 Material 1539 1553 tungsten|B-MAT tiles|L-MAT||tungsten tiles
+T33 Material 595 606 ITER|B-MAT carbon|L-MAT||ITER carbon
+T34 Material 1140 1146 carbon|B-MAT||carbon

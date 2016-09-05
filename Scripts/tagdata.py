@@ -27,14 +27,15 @@ def tagdata():
             tempdict[key]=value
             #print key,"----",value
         for key,value in tempdict.items():
-            print key,value
-            line=line.replace(key,value)
+            #print key,value
+            #line=line.replace(key,value)
+            line=re.sub(r"\b%s\b" % key, value, line)
 
-        print os.environ['CLASSPATH']
-        tokenizer = StanfordTokenizer()
+        #print os.environ['CLASSPATH']
+        #tokenizer = StanfordTokenizer()
         #line=line.split()
-        #line=re.split(r'^[A-Za-z0-9]',line)
-        line=tokenizer.tokenize(line)
+        line=re.split(r"[^\w\|\-]",line)
+        #line=tokenizer.tokenize(line)
         print line
 
         for i in range(len(line)):

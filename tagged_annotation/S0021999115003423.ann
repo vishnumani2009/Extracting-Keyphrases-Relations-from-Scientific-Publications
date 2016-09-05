@@ -1,0 +1,16 @@
+T1 Task 90 114 problem|B-TSK of|I-TSK cell|I-TSK tracking|L-TSK||problem of cell tracking
+T3 Process 195 213 mathematical|B-PROC model|L-PROC||mathematical model
+T4 Material 217 245 experimental|B-MAT image|I-MAT data|I-MAT sets|L-MAT||experimental image data sets
+T5 Process 262 291 geometric|B-PROC evolution|I-PROC law|I-PROC model|L-PROC||geometric evolution law model
+T6 Task 594 615 cell|B-TSK tracking|I-TSK problem|L-TSK||cell tracking problem
+T7 Task 621 657 PDE|B-TSK constrained|I-TSK optimisation|I-TSK problem|L-TSK||PDE constrained optimisation problem
+T8 Process 686 695 algorithm|B-PROC||algorithm
+T9 Task 722 758 PDE|B-TSK constrained|I-TSK optimisation|I-TSK problem|L-TSK||PDE constrained optimisation problem
+T2 Process 859 898 theoretical|B-PROC and|I-PROC computational|I-PROC framework|L-PROC||theoretical and computational framework
+T10 Material 926 952 multi-cell|B-MAT image|I-MAT data|I-MAT sets|L-MAT||multi-cell image data sets
+T11 Material 957 976 raw|B-MAT image|I-MAT data|I-MAT sets|L-MAT||raw image data sets
+T12 Material 1112 1127 image|B-MAT data|I-MAT sets|L-MAT||image data sets
+T13 Task 119 158 introduce|B-TSK our|I-TSK approach|I-TSK to|I-TSK cell|I-TSK tracking|L-TSK||introduce our approach to cell tracking
+T14 Process 497 518 phase|B-PROC field|I-PROC framework|L-PROC||phase field framework
+T15 Process 478 487 our|B-PROC model|L-PROC||our model
+T16 Process 1009 1021 segmentation|B-PROC||segmentation

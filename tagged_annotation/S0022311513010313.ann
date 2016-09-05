@@ -1,0 +1,22 @@
+T1 Material 9 28 bounding|B-MAT PCM|I-MAT wastes|L-MAT||bounding PCM wastes
+T2 Material 116 135 “Mock|B-MAT up”|I-MAT PCM|I-MAT drums|L-MAT||“Mock up” PCM drums
+T3 Material 183 192 PCM|B-MAT drums|L-MAT||PCM drums
+T4 Material 214 244 mild|B-MAT steel|I-MAT paint|I-MAT cans|I-MAT and|I-MAT lids|L-MAT||mild steel paint cans and lids
+T5 Material 270 278 PVC|B-MAT bags|L-MAT||PVC bags
+T6 Material 301 323 identical|B-MAT PVC|I-MAT sheeting|L-MAT||identical PVC sheeting
+T7 Material 351 365 metallic|B-MAT waste|L-MAT||metallic waste
+T8 Material 386 423 commercial|B-MAT grade|I-MAT 18/8|I-MAT stainless|I-MAT steel|L-MAT||commercial grade 18/8 stainless steel
+T9 Material 425 434 aluminium|B-MAT||aluminium
+T10 Material 439 445 copper|B-MAT||copper
+T11 Material 481 490 lead|B-MAT shot|L-MAT||lead shot
+T12 Material 506 521 inorganic|B-MAT waste|L-MAT||inorganic waste
+T13 Material 542 561 waste|B-MAT Pyrex|I-MAT labware|L-MAT||waste Pyrex labware
+T14 Material 571 578 masonry|B-MAT||masonry
+T15 Material 580 588 concrete|B-MAT||concrete
+T16 Material 593 605 window|B-MAT glass|L-MAT||window glass
+T17 Material 607 611 CeO2|B-MAT||CeO2
+T18 Material 676 690 PuO2|B-MAT surrogate|L-MAT||PuO2 surrogate
+T19 Material 734 763 blast-furnace|B-MAT slag|I-MAT “Calumite”|L-MAT||blast-furnace slag “Calumite”
+T20 Material 849 857 Calumite|B-MAT||Calumite
+T21 Material 863 880 powdered|B-MAT material|L-MAT||powdered material
+T22 Material 897 905 particle|B-MAT||particle

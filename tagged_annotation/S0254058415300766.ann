@@ -1,0 +1,26 @@
+T1 Material 0 26 Half|B-MAT metallic|I-MAT ferromagnets|L-MAT||Half metallic ferromagnets
+T2 Material 28 31 HMF|B-MAT||HMF
+T3 Task 95 113 spintronic|B-TSK devices|L-TSK||spintronic devices
+T4 Material 119 149 Dilute|B-MAT magnetic|I-MAT semiconductors|L-MAT||Dilute magnetic semiconductors
+T5 Material 151 155 DMSs|B-MAT||DMSs
+T6 Material 187 221 materials|B-MAT to|I-MAT show|I-MAT half|I-MAT metallicity|L-MAT||materials to show half metallicity
+T7 Material 272 295 semiconducting|B-MAT material|L-MAT||semiconducting material
+T8 Material 345 360 magnetic|B-MAT dopant|L-MAT||magnetic dopant
+T9 Material 369 385 transition|B-MAT metal|L-MAT||transition metal
+T10 Process 462 515 utilization|B-PROC of|I-PROC electron's|I-PROC spin|I-PROC as|I-PROC information|I-PROC carrier|L-PROC||utilization of electron's spin as information carrier
+T11 Task 550 568 spintronic|B-TSK devices|L-TSK||spintronic devices
+T12 Material 832 856 large|B-MAT band|I-MAT gap|I-MAT materials|L-MAT||large band gap materials
+T13 Material 893 897 DMSs|B-MAT||DMSs
+T14 Material 913 943 II–VI|B-MAT and|I-MAT III–V|I-MAT semiconductors|L-MAT||II–VI and III–V semiconductors
+T15 Material 970 973 ZnS|B-MAT||ZnS
+T16 Material 975 978 CdS|B-MAT||CdS
+T17 Material 980 983 GaN|B-MAT||GaN
+T18 Material 985 988 ZnO|B-MAT||ZnO
+T19 Material 990 994 ZnSe|B-MAT||ZnSe
+T20 Material 996 1000 ZnTe|B-MAT||ZnTe
+T21 Material 1002 1006 TiO2|B-MAT||TiO2
+T22 Material 1008 1012 SnO2|B-MAT||SnO2
+T23 Material 947 960 host|B-MAT material|L-MAT||host material
+T24 Task 729 781 enhance|B-TSK the|I-TSK Curie|I-TSK temperature|I-TSK above|I-TSK room|I-TSK temperature|L-TSK||enhance the Curie temperature above room temperature
+T25 Material 393 414 un-paired|B-MAT d|I-MAT electrons|L-MAT||un-paired d electrons
+T26 Material 645 654 electrons|B-MAT||electrons

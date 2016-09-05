@@ -1,0 +1,31 @@
+T1 Task 12 40 represent|B-TSK scale|I-TSK interactions|L-TSK||represent scale interactions
+T3 Process 167 179 R-adaptivity|B-PROC||R-adaptivity
+T4 Process 293 314 atmospheric|B-PROC modelling|L-PROC||atmospheric modelling
+T5 Process 213 229 deforming|B-PROC a|I-PROC mesh|L-PROC||deforming a mesh
+T6 Process 408 418 adaptivity|B-PROC||adaptivity
+T7 Process 874 895 Monge–Ampère|B-PROC equation|L-PROC||Monge–Ampère equation
+T8 Process 1005 1031 r-adaptive|B-PROC mesh|I-PROC generation|L-PROC||r-adaptive mesh generation
+T10 Process 44 81 weather|B-PROC and|I-PROC climate|I-PROC prediction|I-PROC models|L-PROC||weather and climate prediction models
+T11 Process 182 201 mesh|B-PROC redistribution|L-PROC||mesh redistribution
+T12 Process 445 475 altering|B-PROC the|I-PROC mesh|I-PROC connectivity|L-PROC||altering the mesh connectivity
+T13 Material 610 616 meshes|B-MAT||meshes
+T14 Process 715 734 Variational|B-PROC methods|L-PROC||Variational methods
+T15 Process 805 822 r-adaptive|B-PROC meshes|L-PROC||r-adaptive meshes
+T17 Process 954 984 scalar|B-PROC valued|I-PROC monitor|I-PROC function|L-PROC||scalar valued monitor function
+T9 Material 1055 1059 mesh|B-MAT||mesh
+T16 Material 911 942 optimally|B-MAT transported|I-MAT (OT)|I-MAT mesh|L-MAT||optimally transported (OT) mesh
+T18 Material 458 462 mesh|B-MAT||mesh
+T19 Material 225 229 mesh|B-MAT||mesh
+T20 Material 182 186 mesh|B-MAT||mesh
+T21 Task 758 822 control|B-TSK resolution|I-TSK in|I-TSK different|I-TSK directions|I-TSK for|I-TSK r-adaptive|I-TSK meshes|L-TSK||control resolution in different directions for r-adaptive meshes
+T22 Process 1094 1110 monitor|B-PROC function|L-PROC||monitor function
+T2 Material 140 155 adaptive|B-MAT meshes|L-MAT||adaptive meshes
+T23 Process 1132 1145 mesh|B-PROC tangling|L-PROC||mesh tangling
+T24 Process 1254 1266 Monge–Ampère|B-PROC||Monge–Ampère
+T25 Material 1338 1344 sphere|B-MAT||sphere
+T26 Material 1205 1211 sphere|B-MAT||sphere
+T27 Task 1375 1405 weather|B-TSK and|I-TSK climate|I-TSK prediction|L-TSK||weather and climate prediction
+T28 Process 1412 1424 r-adaptivity|B-PROC||r-adaptivity
+T29 Process 581 616 mapping|B-PROC of|I-PROC solutions|I-PROC between|I-PROC meshes|L-PROC||mapping of solutions between meshes
+T30 Material 1132 1136 mesh|B-MAT||mesh
+T31 Task 1172 1211 optimal|B-TSK transport|I-TSK problem|I-TSK on|I-TSK the|I-TSK sphere|L-TSK||optimal transport problem on the sphere

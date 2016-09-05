@@ -1,0 +1,15 @@
+T1 Process 2 14 bond|B-PROC failure|L-PROC||bond failure
+T2 Process 34 56 micro-crack|B-PROC nucleation|L-PROC||micro-crack nucleation
+T3 Material 180 192 micro-cracks|B-MAT||micro-cracks
+T4 Process 524 542 mathematical|B-PROC graph|L-PROC||mathematical graph
+T5 Process 76 163 separation|B-PROC between|I-PROC the|I-PROC adjacent|I-PROC cells|I-PROC in|I-PROC the|I-PROC cellular|I-PROC structure|I-PROC along|I-PROC their|I-PROC common|I-PROC face|L-PROC||separation between the adjacent cells in the cellular structure along their common face
+T6 Material 261 265 pore|B-MAT||pore
+T7 Material 394 406 micro-cracks|B-MAT||micro-cracks
+T8 Material 483 497 failed|B-MAT surface|L-MAT||failed surface
+T9 Material 572 584 failed|B-MAT faces|L-MAT||failed faces
+T10 Material 615 627 failed|B-MAT faces|L-MAT||failed faces
+T11 Material 659 677 cellular|B-MAT structure|L-MAT||cellular structure
+T12 Material 694 706 micro-cracks|B-MAT||micro-cracks
+T13 Material 734 739 crack|B-MAT||crack
+T14 Material 772 783 failed|B-MAT face|L-MAT||failed face
+T15 Material 830 842 failed|B-MAT faces|L-MAT||failed faces

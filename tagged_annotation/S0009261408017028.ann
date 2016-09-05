@@ -1,0 +1,20 @@
+T1 Process 22 49 aperture|B-PROC Z-scan|I-PROC experiments|L-PROC||aperture Z-scan experiments
+T2 Material 215 246 1560nm|B-MAT femtosecond|I-MAT laser|I-MAT pulses|L-MAT||1560nm femtosecond laser pulses
+T3 Material 292 307 optical-chopper|B-MAT||optical-chopper
+T4 Process 313 343 vibrational|B-PROC combination|I-PROC states|L-PROC||vibrational combination states
+T5 Process 519 542 non-radiative|B-PROC processes|L-PROC||non-radiative processes
+T6 Process 564 589 transient|B-PROC thermal|I-PROC effects|L-PROC||transient thermal effects
+T7 Task 905 943 measure|B-TSK this|I-TSK cumulative|I-TSK thermal|I-TSK effect|L-TSK||measure this cumulative thermal effect
+T8 Process 953 1000 mode-mismatched|B-PROC two-color|I-PROC pump–probe|I-PROC experiment|L-PROC||mode-mismatched two-color pump–probe experiment
+T9 Material 379 413 femtosecond|B-MAT laser|I-MAT pulses|I-MAT at|I-MAT 1560nm|L-MAT||femtosecond laser pulses at 1560nm
+T10 Process 597 622 transient|B-PROC thermal|I-PROC effects|L-PROC||transient thermal effects
+T11 Process 642 667 pure|B-PROC optical|I-PROC nonlinearity|L-PROC||pure optical nonlinearity
+T12 Process 744 769 transient|B-PROC thermal|I-PROC effects|L-PROC||transient thermal effects
+T13 Process 854 879 cumulative|B-PROC thermal|I-PROC effect|L-PROC||cumulative thermal effect
+T14 Material 117 122 water|B-MAT||water
+T15 Task 69 90 saturation|B-TSK absorption|L-TSK||saturation absorption
+T16 Material 181 197 primary|B-MAT alcohols|L-MAT||primary alcohols
+T17 Material 351 359 alcohols|B-MAT||alcohols
+T18 Material 482 491 molecules|B-MAT||molecules
+T19 Process 445 455 absorption|B-PROC||absorption
+T20 Material 813 840 high|B-MAT repetition-rate|I-MAT lasers|L-MAT||high repetition-rate lasers

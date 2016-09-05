@@ -1,0 +1,6 @@
+T1 Task 35 86 information|B-TSK dissemination|I-TSK in|I-TSK transportation|I-TSK systems|L-TSK||information dissemination in transportation systems
+T2 Process 93 104 simulations|B-PROC||simulations
+T3 Process 331 402 investigate|B-PROC the|I-PROC impact|I-PROC of|I-PROC information|I-PROC on|I-PROC the|I-PROC global|I-PROC network|I-PROC performance|L-PROC||investigate the impact of information on the global network performance
+T4 Task 468 533 analyse|B-TSK what|I-TSK is|I-TSK the|I-TSK effect|I-TSK of|I-TSK real|I-TSK time|I-TSK information|I-TSK dissemination|L-TSK||analyse what is the effect of real time information dissemination
+T5 Process 742 778 massive|B-PROC use|I-PROC of|I-PROC real-time|I-PROC information|L-PROC||massive use of real-time information
+T6 Task 823 875 building|B-TSK more|I-TSK intelligent|I-TSK traffic|I-TSK control|I-TSK mechanisms|L-TSK||building more intelligent traffic control mechanisms

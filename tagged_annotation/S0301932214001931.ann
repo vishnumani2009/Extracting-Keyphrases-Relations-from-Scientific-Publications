@@ -1,0 +1,26 @@
+T1 Task 28 147 investigate|B-TSK the|I-TSK influence|I-TSK of|I-TSK the|I-TSK particle|I-TSK shape|I-TSK on|I-TSK interacting|I-TSK particles|I-TSK flowing|I-TSK in|I-TSK a|I-TSK horizontal|I-TSK turbulent|I-TSK channel|I-TSK flow|L-TSK||investigate the influence of the particle shape on interacting particles flowing in a horizontal turbulent channel flow
+T2 Process 214 236 large|B-PROC eddy|I-PROC simulations|L-PROC||large eddy simulations
+T3 Process 238 241 LES|B-PROC||LES
+T4 Material 308 316 particle|B-MAT||particle
+T5 Process 343 369 drag,|B-PROC lift|I-PROC and|I-PROC toque|I-PROC model|L-PROC||drag, lift and toque model
+T6 Process 248 281 horizontal|B-PROC turbulent|I-PROC channel|I-PROC flow|L-PROC||horizontal turbulent channel flow
+T7 Process 440 463 horizontal|B-PROC channel|I-PROC flow|L-PROC||horizontal channel flow
+T8 Material 522 541 spherical|B-MAT particles|L-MAT||spherical particles
+T9 Process 617 641 phase|B-PROC Doppler|I-PROC anemometry|L-PROC||phase Doppler anemometry
+T10 Process 643 646 PDA|B-PROC||PDA
+T11 Material 664 669 fluid|B-MAT||fluid
+T12 Material 674 682 particle|B-MAT||particle
+T13 Process 712 731 numerical|B-PROC framework|L-PROC||numerical framework
+T14 Material 788 807 spherical|B-MAT particles|L-MAT||spherical particles
+T15 Process 881 917 comprehensive|B-PROC discrete|I-PROC element|I-PROC model|L-PROC||comprehensive discrete element model
+T16 Process 919 922 DEM|B-PROC||DEM
+T17 Process 1038 1055 hard-sphere|B-PROC model|L-PROC||hard-sphere model
+T18 Task 944 1028 determining|B-TSK the|I-TSK behaviour|I-TSK of|I-TSK the|I-TSK particles|I-TSK in|I-TSK this|I-TSK horizontal|I-TSK gas–solid|I-TSK channel|I-TSK flow|L-TSK||determining the behaviour of the particles in this horizontal gas–solid channel flow
+T19 Material 1094 1099 fluid|B-MAT||fluid
+T20 Process 1144 1157 LES|B-PROC framework|L-PROC||LES framework
+T21 Material 1223 1246 non-spherical|B-MAT particles|L-MAT||non-spherical particles
+T22 Material 153 162 particles|B-MAT||particles
+T23 Material 977 986 particles|B-MAT||particles
+T24 Process 1006 1028 gas–solid|B-PROC channel|I-PROC flow|L-PROC||gas–solid channel flow
+T25 Material 1006 1009 gas|B-MAT||gas
+T26 Material 91 100 particles|B-MAT||particles

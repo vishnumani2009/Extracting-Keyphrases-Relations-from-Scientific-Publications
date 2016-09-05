@@ -1,0 +1,19 @@
+T1 Process 17 39 H-atom|B-PROC photodetachment|L-PROC||H-atom photodetachment
+T2 Material 49 70 intermediate|B-MAT radicals|L-MAT||intermediate radicals
+T3 Material 96 111 reducing|B-MAT agents|L-MAT||reducing agents
+T4 Material 165 182 pyridinyl|B-MAT radical|L-MAT||pyridinyl radical
+T5 Material 184 187 PyH|B-MAT||PyH
+T6 Material 216 230 reducing|B-MAT agent|L-MAT||reducing agent
+T7 Material 253 256 CO2|B-MAT||CO2
+T8 Material 260 272 formaldehyde|B-MAT||formaldehyde
+T9 Material 274 285 formic|B-MAT acid|L-MAT||formic acid
+T10 Material 289 297 methanol|B-MAT||methanol
+T11 Material 312 322 catalyzers|B-MAT||catalyzers
+T12 Material 473 498 AcH,|B-MAT AOH|I-MAT and|I-MAT BAH|I-MAT radicals|L-MAT||AcH, AOH and BAH radicals
+T13 Material 610 627 pyridinyl|B-MAT radical|L-MAT||pyridinyl radical
+T14 Material 660 669 Pyridinyl|B-MAT||Pyridinyl
+T15 Material 718 727 acridinyl|B-MAT||acridinyl
+T16 Material 740 748 radicals|B-MAT||radicals
+T17 Material 703 712 reductant|B-MAT||reductant
+T18 Task 811 850 reduce|B-TSK carbon|I-TSK dioxide|I-TSK in|I-TSK dark|I-TSK reactions|L-TSK||reduce carbon dioxide in dark reactions
+T19 Material 818 832 carbon|B-MAT dioxide|L-MAT||carbon dioxide

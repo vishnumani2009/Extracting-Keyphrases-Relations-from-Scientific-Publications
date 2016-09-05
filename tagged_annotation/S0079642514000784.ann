@@ -1,0 +1,40 @@
+T1 Process 0 36 Gas|B-PROC sorption,|I-PROC storage|I-PROC and|I-PROC separation|L-PROC||Gas sorption, storage and separation
+T2 Material 40 56 carbon|B-MAT materials|L-MAT||carbon materials
+T3 Process 77 90 physisorption|B-PROC||physisorption
+T4 Process 138 191 electrostatic|B-PROC and|I-PROC dispersion|I-PROC (i.e.,|I-PROC vdW)|I-PROC interactions|L-PROC||electrostatic and dispersion (i.e., vdW) interactions
+T5 Material 433 451 adsorbate|B-MAT molecule|L-MAT||adsorbate molecule
+T6 Material 508 526 adsorbate|B-MAT molecule|L-MAT||adsorbate molecule
+T7 Material 702 726 gas|B-MAT or|I-MAT vapour|I-MAT adsorbates|L-MAT||gas or vapour adsorbates
+T8 Material 783 785 H2|B-MAT||H2
+T9 Material 787 789 N2|B-MAT||N2
+T10 Material 791 793 CO|B-MAT||CO
+T11 Material 795 798 CO2|B-MAT||CO2
+T12 Material 800 803 CH4|B-MAT||CH4
+T13 Material 805 808 NH3|B-MAT||NH3
+T14 Material 810 813 SO2|B-MAT||SO2
+T15 Material 818 821 H2S|B-MAT||H2S
+T16 Material 845 854 adsorbent|B-MAT||adsorbent
+T17 Material 929 937 molecule|B-MAT||molecule
+T18 Material 980 990 Adsorbents|B-MAT||Adsorbents
+T19 Material 1035 1054 adsorbate|B-MAT molecules|L-MAT||adsorbate molecules
+T20 Material 1086 1096 adsorbents|B-MAT||adsorbents
+T21 Material 1170 1212 high|B-MAT quadrupole|I-MAT moment|I-MAT adsorbate|I-MAT molecules|L-MAT||high quadrupole moment adsorbate molecules
+T22 Material 1314 1316 H2|B-MAT||H2
+T23 Material 1321 1323 N2|B-MAT||N2
+T24 Material 1342 1344 CO|B-MAT||CO
+T25 Material 1346 1349 CH4|B-MAT||CH4
+T26 Material 1354 1357 CO2|B-MAT||CO2
+T27 Material 1383 1386 H2S|B-MAT||H2S
+T28 Material 1388 1391 NH3|B-MAT||NH3
+T29 Material 1396 1399 H2O|B-MAT||H2O
+T30 Task 1556 1578 enhance|B-TSK gas|I-TSK adsorption|L-TSK||enhance gas adsorption
+T31 Process 1407 1428 surface|B-PROC modifications|L-PROC||surface modifications
+T32 Process 1438 1444 doping|B-PROC||doping
+T33 Process 1446 1463 functionalization|B-PROC||functionalization
+T34 Process 1468 1537 improving|B-PROC the|I-PROC pore|I-PROC structure|I-PROC and|I-PROC specific|I-PROC surface|I-PROC area|I-PROC of|I-PROC nanocarbons|L-PROC||improving the pore structure and specific surface area of nanocarbons
+T35 Material 1526 1537 nanocarbons|B-MAT||nanocarbons
+T36 Material 1598 1606 graphene|B-MAT||graphene
+T37 Material 1644 1667 carbonaceous|B-MAT adsorbents|L-MAT||carbonaceous adsorbents
+T38 Process 220 265 introducing|B-PROC charge|I-PROC variations|I-PROC in|I-PROC the|I-PROC material|L-PROC||introducing charge variations in the material
+T39 Process 285 306 chemical|B-PROC substitution|L-PROC||chemical substitution
+T40 Material 392 401 adsorbent|B-MAT||adsorbent

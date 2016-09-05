@@ -1,0 +1,14 @@
+T1 Material 76 92 nuclear|B-MAT reactors|L-MAT||nuclear reactors
+T2 Material 0 16 Zirconium|B-MAT alloys|L-MAT||Zirconium alloys
+T3 Process 191 213 degradation|B-PROC mechanisms|L-PROC||degradation mechanisms
+T4 Process 222 231 oxidation|B-PROC||oxidation
+T5 Process 279 288 oxidation|B-PROC||oxidation
+T6 Process 308 324 hydrogen|B-PROC pick-up|L-PROC||hydrogen pick-up
+T7 Material 362 366 fuel|B-MAT||fuel
+T8 Process 394 403 oxidation|B-PROC||oxidation
+T9 Material 422 438 zirconium|B-MAT alloys|L-MAT||zirconium alloys
+T10 Material 627 632 oxide|B-MAT||oxide
+T11 Task 694 744 Understanding|B-TSK how|I-TSK these|I-TSK issues|I-TSK influence|I-TSK oxidation|L-TSK||Understanding how these issues influence oxidation
+T12 Task 757 825 developing|B-TSK a|I-TSK full|I-TSK mechanistic|I-TSK understanding|I-TSK of|I-TSK the|I-TSK corrosion|I-TSK process|L-TSK||developing a full mechanistic understanding of the corrosion process
+T13 Process 808 825 corrosion|B-PROC process|L-PROC||corrosion process
+T14 Process 735 744 oxidation|B-PROC||oxidation

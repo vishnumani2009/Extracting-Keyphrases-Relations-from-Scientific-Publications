@@ -1,0 +1,31 @@
+T1 Material 184 208 glass-ceramic|B-MAT wasteforms|L-MAT||glass-ceramic wasteforms
+T2 Material 338 351 molybdenum-99|B-MAT||molybdenum-99
+T3 Material 502 513 crystalline|B-MAT||crystalline
+T4 Material 544 563 titanate|B-MAT pyrochlore|L-MAT||titanate pyrochlore
+T5 Material 565 573 CaUTi2O7|B-MAT||CaUTi2O7
+T6 Task 276 351 immobilisation|B-TSK of|I-TSK the|I-TSK primary|I-TSK waste|I-TSK stream|I-TSK from|I-TSK production|I-TSK of|I-TSK molybdenum-99|L-TSK||immobilisation of the primary waste stream from production of molybdenum-99
+T7 Material 661 666 boron|B-MAT||boron
+T8 Material 671 680 aluminium|B-MAT||aluminium
+T9 Material 726 732 sodium|B-MAT||sodium
+T10 Material 772 777 glass|B-MAT||glass
+T11 Material 800 812 Na2AlBSi6O16|B-MAT||Na2AlBSi6O16
+T12 Material 819 824 glass|B-MAT||glass
+T13 Material 856 873 glass|B-MAT composition|L-MAT||glass composition
+T14 Material 977 984 alumina|B-MAT||alumina
+T15 Material 1023 1049 zirconolite|B-MAT glass-ceramics|L-MAT||zirconolite glass-ceramics
+T16 Material 1063 1075 glass|B-MAT matrix|L-MAT||glass matrix
+T17 Material 1177 1188 crystalline|B-MAT||crystalline
+T18 Task 1113 1204 investigate|B-TSK the|I-TSK role|I-TSK played|I-TSK by|I-TSK glass|I-TSK composition|I-TSK in|I-TSK controlling|I-TSK crystalline|I-TSK phase|I-TSK stability|L-TSK||investigate the role played by glass composition in controlling crystalline phase stability
+T19 Material 1144 1149 glass|B-MAT||glass
+T20 Material 1235 1249 mineral|B-MAT albite|L-MAT||mineral albite
+T21 Material 1251 1260 NaAlSi3O8|B-MAT||NaAlSi3O8
+T22 Material 1283 1289 albite|B-MAT||albite
+T23 Material 1335 1340 glass|B-MAT||glass
+T24 Material 1435 1440 boron|B-MAT||boron
+T25 Material 1454 1460 albite|B-MAT||albite
+T26 Material 1591 1611 Na2O–Al2O3–B2O3–SiO2|B-MAT||Na2O–Al2O3–B2O3–SiO2
+T27 Material 1091 1109 Na2Al1+xB1–xSi6O16|B-MAT||Na2Al1+xB1–xSi6O16
+T28 Material 77 103 non-classical|B-MAT glass|I-MAT matrix|L-MAT||non-classical glass matrix
+T29 Material 579 591 glass|B-MAT matrix|L-MAT||glass matrix
+T30 Material 646 659 glass|B-MAT network|L-MAT||glass network
+T31 Material 244 267 Hanford|B-MAT K-basin|I-MAT sludges|L-MAT||Hanford K-basin sludges

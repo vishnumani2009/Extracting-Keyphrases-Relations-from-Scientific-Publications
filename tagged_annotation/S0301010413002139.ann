@@ -1,0 +1,17 @@
+T1 Material 27 37 l-cysteine|B-MAT||l-cysteine
+T2 Process 164 186 empirical|B-PROC force|I-PROC fields|L-PROC||empirical force fields
+T3 Process 193 218 Hartree–Fock|B-PROC calculations|L-PROC||Hartree–Fock calculations
+T4 Process 122 142 Spectral|B-PROC assignments|L-PROC||Spectral assignments
+T5 Process 243 274 isolated|B-PROC molecule|I-PROC approximation|L-PROC||isolated molecule approximation
+T6 Material 439 445 purine|B-MAT||purine
+T7 Task 460 504 study|B-TSK of|I-TSK the|I-TSK solid|I-TSK state|I-TSK vibrational|I-TSK spectra|L-TSK||study of the solid state vibrational spectra
+T8 Process 508 551 isolated|B-PROC molecule|I-PROC and|I-PROC periodic|I-PROC calculations|L-PROC||isolated molecule and periodic calculations
+T9 Material 722 731 tautomers|B-MAT||tautomers
+T10 Material 786 790 ions|B-MAT||ions
+T11 Material 801 809 hydrogen|B-MAT||hydrogen
+T12 Process 817 838 periodic|B-PROC calculations|L-PROC||periodic calculations
+T13 Task 1061 1131 provide|B-TSK a|I-TSK complete|I-TSK assignment|I-TSK of|I-TSK the|I-TSK vibrational|I-TSK spectra|I-TSK of|I-TSK l-cysteine|L-TSK||provide a complete assignment of the vibrational spectra of l-cysteine
+T14 Process 1209 1247 computational|B-PROC and|I-PROC experimental|I-PROC methods|L-PROC||computational and experimental methods
+T15 Process 959 977 molecular|B-PROC dynamics|L-PROC||molecular dynamics
+T16 Material 852 875 complete|B-MAT primitive|I-MAT cell|L-MAT||complete primitive cell
+T17 Material 1121 1131 l-cysteine|B-MAT||l-cysteine

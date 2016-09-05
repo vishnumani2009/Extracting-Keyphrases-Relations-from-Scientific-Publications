@@ -1,0 +1,32 @@
+T1 Material 4 19 Magnox|B-MAT reactors|L-MAT||Magnox reactors
+T2 Material 54 73 gas-cooled|B-MAT reactors|L-MAT||gas-cooled reactors
+T3 Material 94 108 carbon|B-MAT dioxide|L-MAT||carbon dioxide
+T4 Material 110 113 CO2|B-MAT||CO2
+T5 Material 130 137 coolant|B-MAT||coolant
+T6 Material 144 180 honeycomb|B-MAT network|I-MAT of|I-MAT graphite|I-MAT bricks|L-MAT||honeycomb network of graphite bricks
+T7 Process 192 210 neutron|B-PROC moderation|L-PROC||neutron moderation
+T8 Material 192 199 neutron|B-MAT||neutron
+T9 Material 260 275 carbon|B-MAT monoxide|L-MAT||carbon monoxide
+T10 Material 277 279 CO|B-MAT||CO
+T11 Material 303 314 CO2|B-MAT coolant|L-MAT||CO2 coolant
+T12 Material 321 323 CO|B-MAT||CO
+T13 Process 339 365 radiolytically|B-PROC polymerised|L-PROC||radiolytically polymerised
+T14 Task 369 413 form|B-TSK a|I-TSK carbonaceous|I-TSK deposit|I-TSK on|I-TSK free|I-TSK surfaces|L-TSK||form a carbonaceous deposit on free surfaces
+T15 Material 425 453 non-graphitic|B-MAT carbon|I-MAT deposit|L-MAT||non-graphitic carbon deposit
+T16 Material 499 502 air|B-MAT||air
+T17 Material 523 531 graphite|B-MAT||graphite
+T18 Material 569 584 Magnox|B-MAT reactors|L-MAT||Magnox reactors
+T19 Material 606 617 methane|B-MAT gas|L-MAT||methane gas
+T20 Material 641 652 coolant|B-MAT gas|L-MAT||coolant gas
+T21 Material 683 696 graphite|B-MAT core|L-MAT||graphite core
+T22 Process 704 724 radiolytic|B-PROC oxidation|L-PROC||radiolytic oxidation
+T23 Material 731 738 Methane|B-MAT||Methane
+T24 Material 740 743 CH4|B-MAT||CH4
+T25 Material 842 850 graphite|B-MAT||graphite
+T26 Material 940 948 nitrogen|B-MAT||nitrogen
+T27 Task 656 724 inhibit|B-TSK weight|I-TSK loss|I-TSK of|I-TSK the|I-TSK graphite|I-TSK core|I-TSK due|I-TSK to|I-TSK radiolytic|I-TSK oxidation|L-TSK||inhibit weight loss of the graphite core due to radiolytic oxidation
+T28 Material 764 785 carbonaceous|B-MAT deposits|L-MAT||carbonaceous deposits
+T29 Process 887 919 reduction|B-PROC in|I-PROC mechanical|I-PROC strength|L-PROC||reduction in mechanical strength
+T30 Process 940 987 nitrogen|B-PROC incorporation|I-PROC during|I-PROC deposit|I-PROC formation|L-PROC||nitrogen incorporation during deposit formation
+T31 Process 856 877 excessive|B-PROC weight|I-PROC loss|L-PROC||excessive weight loss
+T32 Material 219 226 reactor|B-MAT||reactor

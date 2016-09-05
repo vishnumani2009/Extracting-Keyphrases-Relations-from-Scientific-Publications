@@ -1,0 +1,67 @@
+T1 Process 26 35 framework|B-PROC||framework
+T2 Task 22 60 new|B-TSK framework|I-TSK of|I-TSK a|I-TSK numerical|I-TSK modelling|L-TSK||new framework of a numerical modelling
+T3 Material 89 92 air|B-MAT||air
+T4 Material 97 102 water|B-MAT||water
+T5 Process 142 168 chemical|B-PROC reaction|I-PROC in|I-PROC water|L-PROC||chemical reaction in water
+T6 Process 190 211 two-compartment|B-PROC model|L-PROC||two-compartment model
+T7 Process 261 280 fundamental|B-PROC concept|L-PROC||fundamental concept
+T8 Task 285 320 modelling|B-TSK physicochemical|I-TSK processes|L-TSK||modelling physicochemical processes
+T9 Process 358 384 chemical|B-PROC reaction|I-PROC in|I-PROC water|L-PROC||chemical reaction in water
+T11 Process 498 527 effects|B-PROC of|I-PROC the|I-PROC Schmidt|I-PROC number|L-PROC||effects of the Schmidt number
+T12 Process 536 558 chemical|B-PROC reaction|I-PROC rate|L-PROC||chemical reaction rate
+T13 Process 68 80 gas|B-PROC exchange|L-PROC||gas exchange
+T14 Process 328 340 gas|B-PROC exchange|L-PROC||gas exchange
+T10 Process 566 610 gas|B-PROC exchange|I-PROC mechanisms|I-PROC across|I-PROC the|I-PROC interface|L-PROC||gas exchange mechanisms across the interface
+T15 Process 641 663 gas|B-PROC exchange|I-PROC processes|L-PROC||gas exchange processes
+T16 Process 730 752 gas–liquid|B-PROC equilibrium|L-PROC||gas–liquid equilibrium
+T17 Process 641 663 gas|B-PROC exchange|I-PROC processes|L-PROC||gas exchange processes
+T18 Process 799 835 chemical|B-PROC reaction|I-PROC in|I-PROC the|I-PROC water|I-PROC phase|L-PROC||chemical reaction in the water phase
+T19 Material 890 906 gaseous|B-MAT material|L-MAT||gaseous material
+T20 Material 933 944 water|B-MAT phase|L-MAT||water phase
+T21 Process 852 882 irreversible|B-PROC chemical|I-PROC reaction|L-PROC||irreversible chemical reaction
+T22 Process 993 1011 chemical|B-PROC reactions|L-PROC||chemical reactions
+T23 Process 1016 1054 turbulent|B-PROC transport|I-PROC phenomena|I-PROC in|I-PROC water|L-PROC||turbulent transport phenomena in water
+T24 Process 1204 1232 computational|B-PROC fluid|I-PROC dynamics|L-PROC||computational fluid dynamics
+T25 Process 1234 1237 CFD|B-PROC||CFD
+T26 Process 1175 1196 two-compartment|B-PROC model|L-PROC||two-compartment model
+T27 Material 1256 1261 water|B-MAT||water
+T29 Process 1381 1408 direct|B-PROC numerical|I-PROC simulation|L-PROC||direct numerical simulation
+T30 Process 1410 1413 DNS|B-PROC||DNS
+T31 Task 1435 1500 evaluate|B-TSK profiles|I-TSK of|I-TSK fluid|I-TSK velocities|I-TSK and|I-TSK concentrations|I-TSK in|I-TSK water|L-TSK||evaluate profiles of fluid velocities and concentrations in water
+T32 Process 1643 1672 fluid|B-PROC flow|I-PROC in|I-PROC the|I-PROC water|I-PROC phase|L-PROC||fluid flow in the water phase
+T33 Process 1456 1472 fluid|B-PROC velocities|L-PROC||fluid velocities
+T34 Process 1477 1500 concentrations|B-PROC in|I-PROC water|L-PROC||concentrations in water
+T35 Process 1816 1835 molecular|B-PROC diffusion|L-PROC||molecular diffusion
+T36 Material 1843 1846 gas|B-MAT||gas
+T37 Material 1864 1869 water|B-MAT||water
+T38 Process 1877 1911 gas|B-PROC exchange|I-PROC rate|I-PROC at|I-PROC the|I-PROC interface|L-PROC||gas exchange rate at the interface
+T39 Task 1991 2058 effect|B-TSK of|I-TSK the|I-TSK chemical|I-TSK reaction|I-TSK rate|I-TSK on|I-TSK the|I-TSK gas|I-TSK exchange|I-TSK mechanisms|L-TSK||effect of the chemical reaction rate on the gas exchange mechanisms
+T40 Process 1932 1969 nondimensional|B-PROC chemical|I-PROC reaction|I-PROC rate|L-PROC||nondimensional chemical reaction rate
+T41 Material 328 331 gas|B-MAT||gas
+T42 Material 379 384 water|B-MAT||water
+T43 Material 566 569 gas|B-MAT||gas
+T44 Material 641 644 gas|B-MAT||gas
+T45 Material 1049 1054 water|B-MAT||water
+T46 Process 1076 1097 two-compartment|B-PROC model|L-PROC||two-compartment model
+T47 Task 1277 1377 evaluate|B-TSK temporal|I-TSK development|I-TSK of|I-TSK three-dimensional|I-TSK profiles|I-TSK of|I-TSK the|I-TSK velocity|I-TSK and|I-TSK concentration|I-TSK fields|L-TSK||evaluate temporal development of three-dimensional profiles of the velocity and concentration fields
+T28 Material 1495 1500 water|B-MAT||water
+T48 Process 1604 1624 subgrid-scale|B-PROC models|L-PROC||subgrid-scale models
+T49 Material 1703 1708 water|B-MAT||water
+T50 Material 1877 1880 gas|B-MAT||gas
+T51 Task 1789 1835 observe|B-TSK the|I-TSK effects|I-TSK of|I-TSK the|I-TSK molecular|I-TSK diffusion|L-TSK||observe the effects of the molecular diffusion
+T52 Material 2035 2038 gas|B-MAT||gas
+T53 Process 2035 2058 gas|B-PROC exchange|I-PROC mechanisms|L-PROC||gas exchange mechanisms
+T54 Process 2005 2022 chemical|B-PROC reaction|L-PROC||chemical reaction
+T55 Material 2082 2085 gas|B-MAT||gas
+T56 Process 2117 2136 transport|B-PROC phenomena|L-PROC||transport phenomena
+T57 Process 2181 2198 chemical|B-PROC reaction|L-PROC||chemical reaction
+T58 Material 2241 2244 gas|B-MAT||gas
+T59 Process 2241 2263 gas|B-PROC exchange|I-PROC processes|L-PROC||gas exchange processes
+T60 Material 2287 2296 Sc∼O(102)|B-MAT||Sc∼O(102)
+T61 Material 2278 2283 gases|B-MAT||gases
+T62 Task 2229 2263 predict|B-TSK the|I-TSK gas|I-TSK exchange|I-TSK processes|L-TSK||predict the gas exchange processes
+T63 Task 2331 2352 numerical|B-TSK experiments|L-TSK||numerical experiments
+T64 Material 730 733 gas|B-MAT||gas
+T65 Material 734 740 liquid|B-MAT||liquid
+T66 Material 824 829 water|B-MAT||water
+T67 Process 2082 2100 gas|B-PROC exchange|I-PROC rates|L-PROC||gas exchange rates

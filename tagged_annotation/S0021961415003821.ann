@@ -1,0 +1,33 @@
+T1 Task 120 163 development|B-TSK of|I-TSK CG|I-TSK models|I-TSK for|I-TSK long|I-TSK n-alkanes|L-TSK||development of CG models for long n-alkanes
+T2 Process 271 291 SAFT-γ|B-PROC Mie|I-PROC formalism|L-PROC||SAFT-γ Mie formalism
+T3 Material 172 180 n-decane|B-MAT||n-decane
+T4 Material 182 190 n-C10H22|B-MAT||n-C10H22
+T5 Material 196 206 n-eicosane|B-MAT||n-eicosane
+T6 Material 208 216 n-C20H42|B-MAT||n-C20H42
+T7 Material 59 114 homonuclear|B-MAT chains|I-MAT of|I-MAT tangent|I-MAT Mie|I-MAT spherical|I-MAT CG|I-MAT segments|L-MAT||homonuclear chains of tangent Mie spherical CG segments
+T8 Material 4 34 homologous|B-MAT series|I-MAT of|I-MAT n-alkanes|L-MAT||homologous series of n-alkanes
+T9 Material 303 320 n-decane|B-MAT molecule|L-MAT||n-decane molecule
+T10 Material 360 370 n-eicosane|B-MAT||n-eicosane
+T12 Process 621 643 alternative|B-PROC CG|I-PROC mapping|L-PROC||alternative CG mapping
+T13 Material 648 657 n-alkanes|B-MAT||n-alkanes
+T15 Material 919 926 n-C6H14|B-MAT||n-C6H14
+T16 Material 928 935 n-C9H20|B-MAT||n-C9H20
+T17 Material 937 945 n-C12H26|B-MAT||n-C12H26
+T18 Material 947 955 n-C15H32|B-MAT||n-C15H32
+T19 Material 957 965 n-C18H38|B-MAT||n-C18H38
+T20 Task 979 1022 description|B-TSK of|I-TSK the|I-TSK thermodynamic|I-TSK properties|L-TSK||description of the thermodynamic properties
+T21 Material 1069 1083 CG|B-MAT alkyl|I-MAT beads|L-MAT||CG alkyl beads
+T22 Process 1105 1125 Mie|B-PROC (15–6)|I-PROC potential|L-PROC||Mie (15–6) potential
+T23 Process 1553 1573 SAFT-γ|B-PROC Mie|I-PROC procedure|L-PROC||SAFT-γ Mie procedure
+T28 Process 1462 1486 saturated-liquid|B-PROC density|L-PROC||saturated-liquid density
+T29 Process 1491 1506 vapour|B-PROC pressure|L-PROC||vapour pressure
+T11 Material 420 432 Mie|B-MAT segments|L-MAT||Mie segments
+T14 Material 736 763 alkyl|B-MAT carbon|I-MAT backbone|I-MAT atoms|L-MAT||alkyl carbon backbone atoms
+T30 Material 788 802 hydrogen|B-MAT atoms|L-MAT||hydrogen atoms
+T31 Material 830 846 n-alkanes|B-MAT chains|L-MAT||n-alkanes chains
+T32 Material 877 889 carbon|B-MAT units|L-MAT||carbon units
+T33 Material 1032 1039 alkanes|B-MAT||alkanes
+T34 Material 1224 1232 CG|B-MAT beads|L-MAT||CG beads
+T35 Material 1252 1259 alkanes|B-MAT||alkanes
+T36 Material 1360 1366 carbon|B-MAT||carbon
+T24 Material 1525 1532 alkanes|B-MAT||alkanes

@@ -1,0 +1,11 @@
+T1 Process 0 39 Generalized|B-PROC polynomial|I-PROC chaos|I-PROC expansions|L-PROC||Generalized polynomial chaos expansions
+T2 Task 57 72 model|B-TSK densities|L-TSK||model densities
+T3 Task 149 168 uncertainty|B-TSK problem|L-TSK||uncertainty problem
+T4 Process 212 250 generalised|B-PROC polynomial|I-PROC chaos|I-PROC expansion|L-PROC||generalised polynomial chaos expansion
+T5 Process 298 323 Rosenblatt|B-PROC transformation|L-PROC||Rosenblatt transformation
+T6 Process 762 781 Askey-Wilson|B-PROC scheme|L-PROC||Askey-Wilson scheme
+T7 Process 807 838 discretized|B-PROC Stieltjes|I-PROC procedure|L-PROC||discretized Stieltjes procedure
+T8 Process 1002 1041 generalized|B-PROC polynomial|I-PROC chaos|I-PROC expansions|L-PROC||generalized polynomial chaos expansions
+T9 Process 1148 1173 Rosenblatt|B-PROC transformation|L-PROC||Rosenblatt transformation
+T10 Material 1189 1212 computational|B-MAT framework|L-MAT||computational framework
+T11 Process 1214 1253 generalized|B-PROC polynomial|I-PROC chaos|I-PROC expansions|L-PROC||generalized polynomial chaos expansions

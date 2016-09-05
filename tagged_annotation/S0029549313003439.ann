@@ -1,0 +1,21 @@
+T1 Task 21 45 nuclear|B-TSK reactor|I-TSK analysis|L-TSK||nuclear reactor analysis
+T2 Task 53 120 prediction|B-TSK of|I-TSK the|I-TSK three-dimensional|I-TSK space-time|I-TSK kinetics|I-TSK of|I-TSK neutrons|L-TSK||prediction of the three-dimensional space-time kinetics of neutrons
+T3 Material 185 197 reactor|B-MAT core|L-MAT||reactor core
+T4 Material 112 120 neutrons|B-MAT||neutrons
+T5 Material 21 36 nuclear|B-MAT reactor|L-MAT||nuclear reactor
+T6 Task 216 231 safety|B-TSK analyses|L-TSK||safety analyses
+T7 Task 236 275 prediction|B-TSK of|I-TSK reactor|I-TSK physics|I-TSK responses|L-TSK||prediction of reactor physics responses
+T8 Process 295 356 neutron|B-PROC diffusion|I-PROC theory|I-PROC applied|I-PROC to|I-PROC three-dimensional|I-PROC systems|L-PROC||neutron diffusion theory applied to three-dimensional systems
+T9 Process 391 432 deterministic|B-PROC neutron|I-PROC transport|I-PROC solutions|L-PROC||deterministic neutron transport solutions
+T10 Material 405 412 neutron|B-MAT||neutron
+T11 Material 295 302 neutron|B-MAT||neutron
+T12 Task 548 576 reactor|B-TSK physics|I-TSK calculations|L-TSK||reactor physics calculations
+T13 Material 548 555 reactor|B-MAT||reactor
+T14 Material 720 753 Uncertainty|B-MAT Analysis|I-MAT in|I-MAT Modelling|L-MAT||Uncertainty Analysis in Modelling
+T15 Material 756 759 UAM|B-MAT||UAM
+T16 Task 823 867 strategy|B-TSK for|I-TSK computing|I-TSK lattice|I-TSK sensitivities|L-TSK||strategy for computing lattice sensitivities
+T17 Material 902 929 WIMS-D4|B-MAT multi-group|I-MAT library|L-MAT||WIMS-D4 multi-group library
+T18 Material 878 897 DRAGON|B-MAT lattice|I-MAT code|L-MAT||DRAGON lattice code
+T19 Process 983 990 TSUNAMI|B-PROC||TSUNAMI
+T20 Material 250 257 reactor|B-MAT||reactor
+T21 Process 436 470 two-dimensional|B-PROC lattice|I-PROC geometries|L-PROC||two-dimensional lattice geometries

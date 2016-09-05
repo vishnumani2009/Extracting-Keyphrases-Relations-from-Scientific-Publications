@@ -1,0 +1,20 @@
+T1 Process 4 31 data|B-PROC acquisition|I-PROC strategies|L-PROC||data acquisition strategies
+T2 Task 111 144 physical|B-TSK and|I-TSK statistical|I-TSK modeling|L-TSK||physical and statistical modeling
+T3 Task 161 200 extraction|B-TSK of|I-TSK the|I-TSK necessary|I-TSK information|L-TSK||extraction of the necessary information
+T4 Process 409 426 statistical|B-PROC model|L-PROC||statistical model
+T5 Task 437 467 capture|B-TSK the|I-TSK temporal|I-TSK evolution|L-TSK||capture the temporal evolution
+T6 Material 475 490 energy|B-MAT material|L-MAT||energy material
+T7 Material 594 629 univariate|B-MAT time-series|I-MAT data|I-MAT streams|L-MAT||univariate time-series data streams
+T8 Material 635 679 high-dimensional|B-MAT volumetric|I-MAT imaging|I-MAT datasets|L-MAT||high-dimensional volumetric imaging datasets
+T9 Process 979 1019 micro-,|B-PROC meso-|I-PROC and|I-PROC macroscopic|I-PROC approaches|L-PROC||micro-, meso- and macroscopic approaches
+T10 Task 1096 1125 development|B-TSK of|I-TSK network|I-TSK models|L-TSK||development of network models
+T11 Material 1154 1170 energy|B-MAT materials|L-MAT||energy materials
+T12 Task 1218 1237 degradation|B-TSK science|L-TSK||degradation science
+T13 Task 808 813 query|B-TSK||query
+T14 Task 818 826 modeling|B-TSK||modeling
+T15 Process 514 545 appropriate|B-PROC informatics|I-PROC methods|L-PROC||appropriate informatics methods
+T16 Process 843 862 modeling|B-PROC approaches|L-PROC||modeling approaches
+T17 Process 276 293 network|B-PROC of|I-PROC models|L-PROC||network of models
+T18 Task 1064 1075 informatics|B-TSK||informatics
+T19 Task 1077 1086 analytics|B-TSK||analytics
+T20 Task 1021 1062 Laboratory|B-TSK and|I-TSK real-world|I-TSK experimentation|L-TSK||Laboratory and real-world experimentation

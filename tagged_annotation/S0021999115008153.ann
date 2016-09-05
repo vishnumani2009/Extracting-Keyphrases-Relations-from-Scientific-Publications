@@ -1,0 +1,12 @@
+T1 Task 20 58 proper|B-TSK inclusion|I-TSK of|I-TSK these|I-TSK interactions|L-TSK||proper inclusion of these interactions
+T2 Process 68 113 segment|B-PROC synchronization|I-PROC after|I-PROC every|I-PROC iteration|L-PROC||segment synchronization after every iteration
+T3 Task 127 153 minimize|B-TSK simulation|I-TSK errors|L-TSK||minimize simulation errors
+T4 Process 209 256 segments|B-PROC are|I-PROC synchronized|I-PROC after|I-PROC every|I-PROC iteration|L-PROC||segments are synchronized after every iteration
+T5 Process 442 484 recalculation|B-PROC of|I-PROC the|I-PROC interaction|I-PROC potential|L-PROC||recalculation of the interaction potential
+T6 Process 538 547 algorithm|B-PROC||algorithm
+T7 Process 582 609 adding|B-PROC dipole|I-PROC contributions|L-PROC||adding dipole contributions
+T8 Process 697 718 interaction|B-PROC potential|L-PROC||interaction potential
+T9 Material 409 428 GPGPU|B-MAT architectures|L-MAT||GPGPU architectures
+T10 Material 318 328 processors|B-MAT||processors
+T11 Material 364 382 parallel|B-MAT computers|L-MAT||parallel computers
+T12 Process 548 578 corrects|B-PROC the|I-PROC current|I-PROC potential|L-PROC||corrects the current potential
