@@ -9,7 +9,7 @@ def tagann():
     files=os.listdir(directory)
     flag=1
     for file in files:
-        fread=open(directory+file,"r")
+        fread=open(directory+file,"U")
         lines=fread.readlines()
         fwrite = open(directory.replace('ann',"tagged_annotation") + file, "w+")
         for line in lines:

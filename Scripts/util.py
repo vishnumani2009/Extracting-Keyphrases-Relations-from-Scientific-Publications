@@ -1,9 +1,9 @@
 #!/usr/bin/python
-
+# -*- coding: utf-8 -*-
 import xml.sax
 import collections
 import os
-
+import codecs
 class PubHandler(xml.sax.ContentHandler):
    def __init__(self):
        # content of each publication document
@@ -76,6 +76,7 @@ class PubHandler(xml.sax.ContentHandler):
 
    def characters(self, content):
         # Call when a character is read
+        #content=unicode(content)
         if self.CurrentData == "dc:identifier":
             self.id = content
         elif self.CurrentData == "prism:publicationName":
@@ -97,14 +98,14 @@ class PubHandler(xml.sax.ContentHandler):
         elif self.highlightflag == True:
             if content.startswith("Highlights"):
                 content = content.replace("Highlights", "", 1)
-            if content.startswith("•"):
-                content = content.replace("•", "", 1)
+            if content.startswith(unicode("•","utf-8")):
+                content = content.replace(unicode("•","utf-8"), "", 1)
             self.textbuilder_highlight.append(content)
         elif self.inpara == True and self.highlightflag == False:
             self.textbuilder.append(content)
 
 
-def parseXML(fpath="data/dev/S0010938X13003818.xml"):
+def parseXML(fpath="../dev/S0003491613001516.xml"):
     '''
     Parse XML files to retrieve full publication text
     :param fpath: path to file
@@ -129,7 +130,7 @@ def parseXML(fpath="data/dev/S0010938X13003818.xml"):
         print("Text:", t)
 
 
-def parseXMLAll(dirpath = "data/dev/"):
+def parseXMLAll(dirpath = "../dev/"):
 
     dir = os.listdir(dirpath)
     for f in dir:
@@ -140,7 +141,7 @@ def parseXMLAll(dirpath = "data/dev/"):
         print("")
 
 
-def readAnn(textfolder = "data/dev/"):
+def readAnn(textfolder = "../ann/"):
     '''
     Read .ann files and look up corresponding spans in .txt files
     :param textfolder:
@@ -149,15 +150,19 @@ def readAnn(textfolder = "data/dev/"):
 
     flist = os.listdir(textfolder)
     for f in flist:
-        f_anno = open(os.path.join(textfolder, f), "rU")
-        f_text = open(os.path.join(textfolder, f.replace(".ann", ".txt")), "rU")
+        #f_anno = open(textfolder+f, "rU")
+        f_anno = codecs.open(textfolder+f, "r","utf-8")
+
+        #f_text = open("../dev/"+f.replace(".ann", ".txt"), "rU")
+        f_text = codecs.open("../dev/"+f.replace(".ann", ".txt"), "r", "utf-8")
 
         # there's only one line, as each .ann file is one text paragraph
         for l in f_text:
             text = l
-
+        print f_anno
         for l in f_anno:
             anno_inst = l.strip().split("\t")
+            #print anno_inst
             if len(anno_inst) == 3:
                 keytype, start, end = anno_inst[1].split(" ")
                 if not keytype.endswith("-of"):
@@ -170,5 +175,5 @@ def readAnn(textfolder = "data/dev/"):
 
 
 if __name__ == '__main__':
-    parseXML()
+    #parseXML()
     readAnn()

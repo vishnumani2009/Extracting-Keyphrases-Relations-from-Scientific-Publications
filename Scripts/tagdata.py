@@ -1,5 +1,5 @@
 #substitutes the only text with tags
-import sys,os,re
+import sys,os,re,codecs
 from nltk.tokenize import TreebankWordTokenizer
 from nltk.tokenize import StanfordTokenizer
 #issue
@@ -12,13 +12,39 @@ def tagdata():
     fwrite = open("../tagged_text/dev_corpus.txt", "w+")
     for file in files:
         print file
-        ff = open(directory + file, "r")
+        ff = codecs.open(directory + file, "r","utf-8")
         contents = ff.readlines()
-        ftext =open("../text/" + file.replace(".ann",".txt"), "r",)
+        ftext =codecs.open("../text/" + file.replace(".ann",".txt"), "r","utf-8")
         line=ftext.read()
 
 
         tempdict={}
+        '''
+        for annotation in contents:
+            annotation = annotation.split("||")
+            key = annotation[1].split("\n")[0]
+            start=(annotation[0].split(" ")[2])
+            end=(annotation[0].split(" ")[3])
+            tempdict[start+"||"+end] = " ".join(annotation[0].split()[4:])
+        liness = line
+        imp=0
+
+        for key, value in tempdict.items():
+            # print key,value
+            #print value
+
+            start=int(key.split("||")[0])
+            end=int(key.split("||")[1])
+            oldlen=len(line[start:end])
+            newlen=len(value)
+            imp=newlen-oldlen
+            firstpart=liness[:start]
+            secondpart=liness[end:]
+            liness=firstpart+" "+value+" "+secondpart
+            #print liness[start:end],value,start,end,
+             #line=line.replace(key,value)
+            #line = re.sub(r"\b%s\b" % key, value, line)
+        '''
         for annotation in contents:
             #print "annotation in progress"
             annotation=annotation.split("||")
@@ -38,11 +64,21 @@ def tagdata():
         #line=tokenizer.tokenize(line)
         print line
 
-        for i in range(len(line)):
-            if "|" not in line[i]:
-                line[i]=line[i]+"|O"
+        ''''
+        print liness
+        print line
+        liness=liness.strip()
+        liness = re.split(r"[^\w\|\-]", liness)
+        for i in range(len(liness)):
+            if "|" not in liness[i]:
+                liness[i]=liness[i]+"|O"
 
         #print " ".join(line)
+        #print>>fwrite," ".join(line)
+        '''
+        for i in range(len(line)):
+            if "|" not in line[i]:
+                line[i] = line[i] + "|O"
+        print line
         print>>fwrite," ".join(line)
-
 tagdata()
