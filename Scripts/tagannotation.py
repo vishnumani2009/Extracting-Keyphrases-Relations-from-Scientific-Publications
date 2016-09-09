@@ -1,4 +1,3 @@
-#generates a file with all the annotated text.
 import sys,os,re
 
 

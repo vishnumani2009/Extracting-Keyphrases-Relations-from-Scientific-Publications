@@ -60,8 +60,8 @@
       <file leaf-file-name="tagannotation.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scripts/tagannotation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+            <state relative-caret-position="139">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -91,9 +91,9 @@
         <option value="$PROJECT_DIR$/tagged_text/dev_corpus_encoding_correct.txt" />
         <option value="$PROJECT_DIR$/text/S0003491613001516.txt" />
         <option value="$PROJECT_DIR$/Scripts/util.py" />
-        <option value="$PROJECT_DIR$/Scripts/tagannotation.py" />
         <option value="$PROJECT_DIR$/trainann/S0167931713005042.ann" />
         <option value="$PROJECT_DIR$/Scripts/tagdata.py" />
+        <option value="$PROJECT_DIR$/Scripts/tagannotation.py" />
       </list>
     </option>
   </component>
@@ -434,7 +434,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25549048" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -831,8 +831,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/tagannotation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        <state relative-caret-position="139">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding />
         </state>
       </provider>
