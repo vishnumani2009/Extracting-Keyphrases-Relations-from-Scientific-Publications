@@ -5,13 +5,13 @@ import sys,os,re
 
 
 def tagann():
-    directory="../ann/"
+    directory="../trainann/"
     files=os.listdir(directory)
     flag=1
     for file in files:
         fread=open(directory+file,"U")
         lines=fread.readlines()
-        fwrite = open(directory.replace('ann',"tagged_annotation") + file, "w+")
+        fwrite = open(directory.replace('trainann',"trainann_tagged") + file, "w+")
         for line in lines:
             line=re.sub(" +"," ",line)
 

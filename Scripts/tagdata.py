@@ -7,7 +7,7 @@ from nltk.tokenize import StanfordTokenizer
 #For ex when we have n-alkanes and homologenous n-alkanes we tag as n-alkanes=U-MAT and homologenous=B-MAT and n-alkanes=U-MAT
 #
 def tagdata():
-    directory = "../tagged_annotation/"
+    directory = "../trainann_tagged/"
     files = os.listdir(directory)
     fwrite = open("../tagged_text/dev_corpus.txt", "w+")
     for file in files:
@@ -16,7 +16,7 @@ def tagdata():
         #     continue
         ff = codecs.open(directory + file, "r","utf-8")
         contents = ff.readlines()
-        ftext =codecs.open("../text/" + file.replace(".ann",".txt"), "r","utf-8")
+        ftext =codecs.open("../train/" + file.replace(".ann",".txt"), "r","utf-8")
         line=ftext.read()
 
 
@@ -47,7 +47,7 @@ def tagdata():
             temp=temp[0:len(liness[start:end])]
 
             liness=list(liness)
-            if "B-PROC" in value:
+            if "TSK" in value:
                 liness[start:end]=temp
                 perdict[temp] = value
 
@@ -55,12 +55,6 @@ def tagdata():
 
 
 
-            print temp
-            print value
-            print line
-            print liness
-        #sys.exit(0)
-        print len(perdict),liness
 
         for key,value in perdict.items():
             liness=re.sub(r"\b%s\b" % key, value, liness)
