@@ -7,7 +7,7 @@ from nltk.tokenize import StanfordTokenizer
 #For ex when we have n-alkanes and homologenous n-alkanes we tag as n-alkanes=U-MAT and homologenous=B-MAT and n-alkanes=U-MAT
 #
 def tagdata():
-    directory = "../trainann_tagged/"
+    directory = "../tagged_annotation/"
     files = os.listdir(directory)
     fwrite = open("../tagged_text/dev_corpus.txt", "w+")
     for file in files:
@@ -16,7 +16,7 @@ def tagdata():
         #     continue
         ff = codecs.open(directory + file, "r","utf-8")
         contents = ff.readlines()
-        ftext =codecs.open("../train/" + file.replace(".ann",".txt"), "r","utf-8")
+        ftext =codecs.open("../text/" + file.replace(".ann",".txt"), "r","utf-8")
         line=ftext.read()
 
 
@@ -47,7 +47,7 @@ def tagdata():
             temp=temp[0:len(liness[start:end])]
 
             liness=list(liness)
-            if "TSK" in value:
+            if "PROC" in value:
                 liness[start:end]=temp
                 perdict[temp] = value
 
@@ -58,6 +58,8 @@ def tagdata():
 
         for key,value in perdict.items():
             liness=re.sub(r"\b%s\b" % key, value, liness)
+
+        liness=re.sub(r" +"," ",liness)
 
 
 
@@ -88,7 +90,7 @@ def tagdata():
 
         '''
 
-        liness=liness.strip()
+        liness=liness.strip(" ")
         liness = re.split(r"[^\w\|\-]", liness)
         for i in range(len(liness)):
             if "|" not in liness[i]:
@@ -96,8 +98,11 @@ def tagdata():
         #print liness
         #print " ".join(liness)
         #sys.exit(0)
-        print>>fwrite," ".join(liness)
-
+        for i in range(len(liness)):
+            if liness[i]!="|O":
+                print>>fwrite,liness[i]
+        print>>fwrite
+        #print>>fwrite," ".join(liness)
         '''
         for i in range(len(line)):
             if "|" not in line[i]:
