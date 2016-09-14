@@ -215,7 +215,7 @@ def get_data(path, ngram, begin_end_word = True):
     bgn_label_idx = label_index_dict['__BGN__']
     testb_x=""
     testb_y=""
-
+    print(train_x[0])
     return train_x, train_y, testa_x, testb_x, testa_y, testb_y, vocab, vocab_label, bgn_label_idx
 
 
