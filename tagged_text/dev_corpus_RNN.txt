@@ -1,9 +1,8 @@
-Complex	B-PROC
-Langevin	L-PROC
-CL	B-PROC
+Complex|B-PROC
+Langevin|L-PROC
+CL|B-PROC
 dynamics	O
-1	O
-2	O
+1,2	O
 provides	O
 an	O
 approach	O
@@ -13,12 +12,12 @@ the	O
 sign	O
 problem	O
 in	O
-numerical	B-PROC
-simulations	I-PROC
-of	I-PROC
-lattice	I-PROC
-field	I-PROC
-theories	L-PROC
+numerical|B-PROC
+simulations|I-PROC
+of|I-PROC
+lattice|I-PROC
+field|I-PROC
+theories|L-PROC
 with	O
 a	O
 complex	O
@@ -47,16 +46,16 @@ in	O
 the	O
 context	O
 of	O
-nonzero	B-PROC
-chemical	I-PROC
-potential	L-PROC
+nonzero|B-PROC
+chemical|I-PROC
+potential|L-PROC
 in	O
 both	O
-lower	B-PROC
-and	I-PROC
-four-dimensional	I-PROC
-field	I-PROC
-theories	L-PROC
+lower|B-PROC
+and|I-PROC
+four-dimensional|I-PROC
+field|I-PROC
+theories|L-PROC
 with	O
 a	O
 severe	O
@@ -66,18 +65,15 @@ in	O
 the	O
 thermodynamic	O
 limit	O
-3	O
-8	O
+3–8	O
 for	O
 two	O
 recent	O
 reviews	O
 see	O
-e	O
-g	O
+e.g	O
 Refs	O
-9	O
-10	O
+9,10	O
 However	O
 as	O
 has	O
@@ -93,8 +89,7 @@ results	O
 are	O
 not	O
 guaranteed	O
-CL	B-PROC
-16	O
+11–16	O
 This	O
 calls	O
 for	O
@@ -126,33 +121,32 @@ the	O
 real	O
 and	O
 positive	O
-probability	B-PROC
-distribution	L-PROC
+probability|B-PROC
+distribution|L-PROC
 in	O
 the	O
-complexified	B-PROC
-configuration	I-PROC
-space	L-PROC
+complexified|B-PROC
+configuration|I-PROC
+space|L-PROC
 which	O
 is	O
 effectively	O
 sampled	O
 during	O
 the	O
-Langevin	B-PROC
-process	L-PROC
+Langevin|B-PROC
+process|L-PROC
 has	O
 been	O
 clarified	O
-17	O
-18	O
+17,18	O
 An	O
 important	O
 conclusion	O
 was	O
 that	O
 this	O
-distribution	B-PROC
+distribution|B-PROC
 should	O
 be	O
 sufficiently	O
@@ -160,7 +154,7 @@ localised	O
 in	O
 order	O
 for	O
-CL	B-PROC
+CL|B-PROC
 to	O
 yield	O
 valid	O
@@ -188,8 +182,7 @@ N	O
 C	O
 gauge	O
 cooling	O
-8	O
-10	O
+8,10	O
 
 This	O
 work	O
@@ -202,12 +195,12 @@ on	O
 the	O
 combination	O
 of	O
-Statistical	B-PROC
-Mechanics	L-PROC
+Statistical|B-PROC
+Mechanics|L-PROC
 and	O
-nonlinear	B-PROC
-PDEs	I-PROC
-theory	L-PROC
+nonlinear|B-PROC
+PDEs|I-PROC
+theory|L-PROC
 provides	O
 us	O
 with	O
@@ -234,19 +227,19 @@ test-case	O
 that	O
 exhibits	O
 a	O
-first	B-PROC
-order	I-PROC
-phase	I-PROC
-transition	L-PROC
+first|B-PROC
+order|I-PROC
+phase|I-PROC
+transition|L-PROC
 semi-heuristically	O
 described	O
 such	O
 as	O
 the	O
-van	B-PROC
-der	I-PROC
-Waals	I-PROC
-model	L-PROC
+van|B-PROC
+der|I-PROC
+Waals|I-PROC
+model|L-PROC
 In	O
 particular	O
 we	O
@@ -256,9 +249,9 @@ the	O
 first	O
 global	O
 mean	O
-field	B-PROC
-partition	I-PROC
-function	L-PROC
+field|B-PROC
+partition|I-PROC
+function|L-PROC
 Eq	O
 9	O
 for	O
@@ -270,22 +263,21 @@ number	O
 of	O
 particles	O
 The	O
-partition	B-PROC
-function	L-PROC
+partition|B-PROC
+function|L-PROC
 is	O
 a	O
 solution	O
 to	O
 the	O
-Klein	O
-Gordon	O
+Klein–Gordon	O
 equation	O
 reproduces	O
 the	O
-van	B-PROC
-der	I-PROC
-Waals	I-PROC
-isotherms	L-PROC
+van|B-PROC
+der|I-PROC
+Waals|I-PROC
+isotherms|L-PROC
 away	O
 from	O
 the	O
@@ -294,16 +286,16 @@ region	O
 and	O
 in	O
 the	O
-thermodynamic	B-PROC
-limit	I-PROC
-N	L-PROC
+thermodynamic|B-PROC
+limit|I-PROC
+N→∞|L-PROC
 automatically	O
 encodes	O
 the	O
-Maxwell	B-PROC
-equal	I-PROC
-areas	I-PROC
-rule	L-PROC
+Maxwell|B-PROC
+equal|I-PROC
+areas|I-PROC
+rule|L-PROC
 The	O
 approach	O
 hereby	O
@@ -317,17 +309,13 @@ been	O
 successfully	O
 applied	O
 to	O
-spin	B-PROC
-17	O
-19	O
-14	O
-16	O
+spin|B-PROC
+17–19,14,16	O
 and	O
-macroscopic	B-PROC
-thermodynamic	I-PROC
-systems	L-PROC
-20	O
-15	O
+macroscopic|B-PROC
+thermodynamic|I-PROC
+systems|L-PROC
+20,15	O
 and	O
 can	O
 be	O
@@ -341,11 +329,11 @@ class	O
 of	O
 models	O
 admitting	O
-partition	B-PROC
-functions	I-PROC
-of	I-PROC
-the	I-PROC
-form	L-PROC
+partition|B-PROC
+functions|I-PROC
+of|I-PROC
+the|I-PROC
+form|L-PROC
 4	O
 to	O
 be	O
@@ -356,28 +344,28 @@ to	O
 the	O
 critical	O
 region	O
-general	B-PROC
-equations	I-PROC
-of	I-PROC
-state	I-PROC
-of	I-PROC
-the	I-PROC
-form	L-PROC
+general|B-PROC
+equations|I-PROC
+of|I-PROC
+state|I-PROC
+of|I-PROC
+the|I-PROC
+form|L-PROC
 7	O
 including	O
 a	O
-class	B-PROC
-virial	I-PROC
-expansions	L-PROC
+class|B-PROC
+virial|I-PROC
+expansions|L-PROC
 
 We	O
 use	O
 open	O
 and	O
 close	O
-aperture	B-PROC
-Z-scan	I-PROC
-experiments	L-PROC
+aperture|B-PROC
+Z-scan|I-PROC
+experiments|L-PROC
 in	O
 analogy	O
 to	O
@@ -394,6 +382,7 @@ to	O
 respectively	O
 measure	O
 the	O
+β	O
 and	O
 n2	O
 for	O
@@ -419,9 +408,9 @@ of	O
 an	O
 optical-chopper	O
 The	O
-vibrational	B-PROC
-combination	I-PROC
-states	L-PROC
+vibrational|B-PROC
+combination|I-PROC
+states|L-PROC
 of	O
 the	O
 alcohols	O
@@ -439,7 +428,7 @@ couplings	O
 result	O
 in	O
 the	O
-absorption	B-PROC
+absorption|B-PROC
 of	O
 1560nm	O
 and	O
@@ -449,26 +438,26 @@ molecules	O
 undergo	O
 relaxation	O
 through	O
-non-radiative	B-PROC
-processes	L-PROC
+non-radiative|B-PROC
+processes|L-PROC
 which	O
 gives	O
 rise	O
 to	O
-transient	B-PROC
-thermal	I-PROC
-effects	L-PROC
+transient|B-PROC
+thermal|I-PROC
+effects|L-PROC
 These	O
-transient	B-PROC
-thermal	I-PROC
-effects	L-PROC
+transient|B-PROC
+thermal|I-PROC
+effects|L-PROC
 are	O
 related	O
 to	O
 the	O
-pure	B-PROC
-optical	I-PROC
-nonlinearity	L-PROC
+pure|B-PROC
+optical|I-PROC
+nonlinearity|L-PROC
 of	O
 the	O
 samples	O
@@ -485,9 +474,9 @@ n2	O
 values	O
 14	O
 The	O
-transient	B-PROC
-thermal	I-PROC
-effects	L-PROC
+transient|B-PROC
+thermal|I-PROC
+effects|L-PROC
 of	O
 individual	O
 pulses	O
@@ -501,9 +490,9 @@ lasers	O
 to	O
 produce	O
 a	O
-cumulative	B-PROC
-thermal	I-PROC
-effect	L-PROC
+cumulative|B-PROC
+thermal|I-PROC
+effect|L-PROC
 at	O
 longer	O
 timescales	O
@@ -515,19 +504,18 @@ thermal	O
 effect	O
 with	O
 the	O
-mode-mismatched	B-PROC
-two-color	I-PROC
-pump	O
-probe	I-PROC
-experiment	L-PROC
+mode-mismatched|B-PROC
+two-color|I-PROC
+pump–probe|I-PROC
+experiment|L-PROC
 
 The	O
 control	O
 of	O
 the	O
-RP	B-PROC
-re-encounter	I-PROC
-probability	L-PROC
+RP|B-PROC
+re-encounter|I-PROC
+probability|L-PROC
 finds	O
 a	O
 direct	O
@@ -545,8 +533,8 @@ show	O
 how	O
 a	O
 simple-to-implement	O
-control	B-PROC
-scheme	L-PROC
+control|B-PROC
+scheme|L-PROC
 highly	O
 enhances	O
 the	O
@@ -577,8 +565,8 @@ a	O
 change	O
 in	O
 the	O
-magnetic	B-PROC
-field	L-PROC
+magnetic|B-PROC
+field|L-PROC
 modifies	O
 the	O
 amount	O
@@ -597,11 +585,11 @@ chemical	O
 yield	O
 to	O
 estimate	O
-B	B-PROC
+B|B-PROC
 Intuitively	O
 the	O
-magnetic	B-PROC
-sensitivity	L-PROC
+magnetic|B-PROC
+sensitivity|L-PROC
 is	O
 high	O
 when	O
@@ -610,9 +598,9 @@ small	O
 change	O
 in	O
 the	O
-magnetic	B-PROC
-field	I-PROC
-intensity	L-PROC
+magnetic|B-PROC
+field|I-PROC
+intensity|L-PROC
 produces	O
 large	O
 effects	O
@@ -626,31 +614,29 @@ is	O
 defined	O
 as	O
 2	O
-s	O
+Λs	O
 B	O
-s	O
+≡∂Φs	O
 B	O
-B	O
-0	O
-pre	O
+∂B=∫0∞pre	O
 t	O
 gs	O
 B	O
 t	O
-dt	B-PROC
+dt|B-PROC
 with	O
 gs	O
 B	O
 t	O
-fs	O
+≡∂fs	O
 B	O
 t	O
-B	B-PROC
+∂B|B-PROC
 being	O
 the	O
-instantaneous	B-PROC
-magnetic	I-PROC
-sensitivity	L-PROC
+instantaneous|B-PROC
+magnetic|I-PROC
+sensitivity|L-PROC
 The	O
 functional	O
 form	O
@@ -658,8 +644,7 @@ of	O
 fs	O
 B	O
 t	O
-S	O
-el	O
+Sρel	O
 t	O
 S	O
 strongly	O
@@ -667,11 +652,11 @@ depends	O
 on	O
 the	O
 specific	O
-realization	B-PROC
-of	I-PROC
-the	I-PROC
-radical	I-PROC
-pair	L-PROC
+realization|B-PROC
+of|I-PROC
+the|I-PROC
+radical|I-PROC
+pair|L-PROC
 in	O
 particular	O
 on	O
@@ -680,8 +665,8 @@ number	O
 of	O
 the	O
 surrounding	O
-nuclear	B-PROC
-spins	L-PROC
+nuclear|B-PROC
+spins|L-PROC
 Here	O
 we	O
 consider	O
@@ -692,26 +677,25 @@ in	O
 which	O
 the	O
 first	O
-electron	B-PROC
-spin	L-PROC
+electron|B-PROC
+spin|L-PROC
 is	O
 devoid	O
 of	O
-hyperfine	B-PROC
-interactions	L-PROC
+hyperfine|B-PROC
+interactions|L-PROC
 while	O
 the	O
 second	O
-electron	B-PROC
-spin	L-PROC
+electron|B-PROC
+spin|L-PROC
 interacts	O
 isotropically	O
 with	O
 one	O
-spin	B-PROC
+spin-1	O
 nucleus	O
-e	O
-g	O
+e.g	O
 nitrogen	O
 In	O
 the	O
@@ -720,28 +704,27 @@ of	O
 the	O
 chemical	O
 compass	O
-i	O
-e	O
+i.e	O
 when	O
 the	O
 task	O
 is	O
 determining	O
 the	O
-magnetic	B-PROC
-field	I-PROC
-direction	L-PROC
+magnetic|B-PROC
+field|I-PROC
+direction|L-PROC
 through	O
-anisotropic	B-PROC
-hyperfine	I-PROC
-interactions	L-PROC
+anisotropic|B-PROC
+hyperfine|I-PROC
+interactions|L-PROC
 an	O
-analogous	B-PROC
-configuration	L-PROC
+analogous|B-PROC
+configuration|L-PROC
 with	O
 only	O
 one	O
-spin	B-PROC
+spin-1/2	O
 nucleus	O
 has	O
 been	O
@@ -761,22 +744,20 @@ would	O
 perturb	O
 the	O
 intuitive	O
-reference	O
+‘reference	O
 and	O
-probe	O
+probe’	O
 picture	O
 The	O
 Hamiltonian	O
 then	O
 simplifies	O
 to	O
-H	O
--	O
-eB	O
-S1	O
-z	O
-S2	O
-z	O
+H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→	B-PROC
+where	O
+α	B-PROC
+is	O
+the	O
 isotropic	B-PROC
 hyperfine	I-PROC
 coupling	L-PROC
@@ -836,8 +817,7 @@ environment	I-PROC
 of	I-PROC
 molecular	I-PROC
 chromophores	L-PROC
-2	O
-4	O
+2–4	O
 Many	O
 biological	O
 systems	O
@@ -912,8 +892,7 @@ a	O
 neighbouring	O
 carotenoid	O
 species	O
-5	O
-7	O
+5–7	O
 Until	O
 now	O
 research	O
@@ -945,13 +924,11 @@ quantum	B-PROC
 electrodynamic	L-PROC
 QED	B-PROC
 calculations	O
-8	O
-10	O
+8–10	O
 and	O
 experimental	B-PROC
 procedures	L-PROC
-11	O
-13	O
+11–13	O
 predict	O
 and	O
 verify	O
@@ -1011,7 +988,8 @@ secure	O
 enantiopure	O
 products	O
 Such	O
-methods	B-PROC
+methods	O
+B-PROC	O
 mostly	I-PROC
 multi-step	I-PROC
 and	I-PROC
@@ -1062,6 +1040,7 @@ enantiopure	O
 reagents	O
 or	O
 substrates	O
+–	O
 synthesis	B-PROC
 routes	L-PROC
 generally	O
@@ -1072,8 +1051,7 @@ blocks	O
 or	O
 enantioselective	O
 catalysts	O
-7	O
-8	O
+7,8	O
 while	O
 enantiomer	B-PROC
 separation	I-PROC
@@ -1091,8 +1069,7 @@ and	O
 distinguishable	O
 diastereomeric	O
 complexes	O
-8	O
-9	O
+8,9	O
 A	O
 key	O
 requirement	O
@@ -1119,6 +1096,7 @@ quantitate	O
 the	O
 enantiomeric	B-PROC
 excess	L-PROC
+–	O
 signifying	O
 the	O
 degree	B-PROC
@@ -1157,7 +1135,7 @@ differences	O
 in	O
 absorption	B-PROC
 of	O
-left-	O
+left	O
 and	O
 right-handed	O
 circularly	O
@@ -1230,8 +1208,7 @@ a	O
 test	O
 by	O
 the	O
-MP	O
-SOFT	B-PROC
+MP/SOFT	B-PROC
 18	O
 and	O
 CCS	B-PROC
@@ -1269,9 +1246,8 @@ mode	L-PROC
 coupled	O
 to	O
 an	O
-M	O
-1	O
--dimensional	B-PROC
+M−1	O
+dimensional	B-PROC
 harmonic	I-PROC
 bath	L-PROC
 hence	O
@@ -1294,8 +1270,7 @@ in	O
 a	O
 dissipative	O
 system	O
-22	O
-23	O
+22,23	O
 This	O
 Hamiltonian	B-PROC
 is	O
@@ -1407,8 +1382,7 @@ initially	O
 coupled	O
 by	O
 a	O
-4	O
-7k	O
+4.7kΩ	O
 resistor	O
 and	O
 their	O
@@ -1480,9 +1454,7 @@ comprised	O
 potential	O
 values	O
 spaced	O
-1	O
-0	O
-05s	O
+1±0.05s	O
 in	O
 time	O
 Under	O
@@ -1502,8 +1474,7 @@ the	O
 noise	O
 present	O
 below	O
-0	O
-5Hz	O
+0.5Hz	O
 this	O
 procedure	O
 enables	O
@@ -1524,8 +1495,7 @@ aliasing	O
 of	O
 frequencies	O
 between	O
-0	O
-5	O
+0.5	O
 and	O
 1023Hz	O
 and	O
@@ -1571,6 +1541,7 @@ emulsifiers	O
 providing	O
 dispersed	O
 emulsion	O
+–	O
 not	O
 separated	O
 while	O
@@ -1581,9 +1552,7 @@ of	O
 the	O
 metallic	O
 material	O
-14	O
-20	O
-24	O
+14,20,24	O
 However	O
 surfactants	O
 can	O
@@ -1620,16 +1589,11 @@ industry	O
 are	O
 alkylphenol	O
 ethoxylates	O
-e	O
-g	O
+e.g	O
 nonylphenol	O
 ethoxylate	O
 NPE	O
-14	O
-15	O
-30	O
-106	O
-107	O
+14,15,30,106,107	O
 However	O
 NPEs	O
 have	O
@@ -1695,7 +1659,8 @@ the	O
 protonated	B-PROC
 state	L-PROC
 they	O
-cannot	O
+can	O
+not	O
 be	O
 used	O
 at	O
@@ -1711,7 +1676,7 @@ compounds	O
 frequently	O
 abbreviated	O
 as	O
-quats	O
+“quats”	O
 are	O
 not	O
 pH	O
@@ -1740,11 +1705,7 @@ was	O
 N-dodecylpyridinium	O
 bromide	O
 DDPB	O
-9	O
-60	O
-61	O
-108	O
-109	O
+9,60,61,108,109	O
 Anionic	O
 sulphates	O
 anionic	O
@@ -1792,13 +1753,13 @@ given	O
 below	O
 in	O
 Section	O
-5	O
-6	O
+5.6	O
 
 The	O
 related	O
 Volta	B-PROC
 potential	L-PROC
+Ψ	B-PROC
 is	O
 the	O
 potential	B-PROC
@@ -1830,8 +1791,7 @@ behaviour	I-PROC
 of	I-PROC
 a	I-PROC
 metal	L-PROC
-12	O
-17	O
+12,17	O
 The	O
 scanning	B-PROC
 Kelvin	I-PROC
@@ -1857,6 +1817,7 @@ or	O
 Volta	O
 potential	O
 differences	O
+ΔΨ	O
 between	O
 an	O
 atomic	O
@@ -1870,9 +1831,7 @@ and	O
 the	O
 metal	O
 surface	O
-14	O
-15	O
-19	O
+14,15,19	O
 The	O
 lateral	O
 resolution	O
@@ -1883,8 +1842,7 @@ be	O
 as	O
 high	O
 as	O
-10	O
-s	O
+10’s	O
 of	O
 nm	O
 in	O
@@ -1895,8 +1853,7 @@ a	O
 sensitivity	O
 up	O
 to	O
-10	O
-20meV	O
+10–20meV	O
 19	O
 Volta	B-PROC
 potential	L-PROC
@@ -1931,8 +1888,7 @@ variations	O
 and	O
 residual	O
 stress	O
-13	O
-17	O
+13,17	O
 Volta	B-PROC
 potential	I-PROC
 differences	I-PROC
@@ -1945,21 +1901,17 @@ to	O
 predict	O
 corrosion	O
 behaviour	O
-10	O
-15	O
-18	O
-20	O
-22	O
+10,15,18,20–22	O
 Regions	O
 with	O
 larger	B-PROC
+ΔΨ	O
+I-PROC	O
 indicate	I-PROC
 increased	I-PROC
 surface	I-PROC
 reactivity	L-PROC
-11	O
-15	O
-18	O
+11,15,18	O
 and	O
 even	O
 a	O
@@ -2027,7 +1979,7 @@ successfully	O
 demonstrated	O
 using	O
 the	O
-SAFT	B-PROC
+SAFT-γ	B-PROC
 Mie	I-PROC
 formalism	L-PROC
 118	O
@@ -2152,17 +2104,17 @@ alkyl	O
 beads	O
 characterised	O
 by	O
+the	O
 Mie	B-PROC
-15	I-PROC
-6	I-PROC
+15–6	O
+I-PROC	O
 potential	L-PROC
 For	O
 convenience	O
 the	O
 exponent	O
 pair	O
-15	O
-6	O
+15–6	O
 is	O
 also	O
 used	O
@@ -2204,8 +2156,10 @@ by	O
 three	O
 The	O
 size	O
+σ	O
 and	O
 energy	O
+∊	O
 parameters	O
 are	O
 then	O
@@ -2225,7 +2179,7 @@ alkanes	O
 following	O
 the	O
 usual	O
-SAFT	B-PROC
+SAFT-γ	B-PROC
 Mie	I-PROC
 procedure	L-PROC
 The	O
@@ -2249,7 +2203,7 @@ requisites	O
 such	O
 as	O
 being	O
-universal	O
+“universal”	O
 across	O
 the	O
 entire	O
@@ -2373,8 +2327,7 @@ the	O
 first	O
 is	O
 the	O
-gas	O
-liquid	O
+gas–liquid	O
 equilibrium	O
 between	O
 the	O
@@ -2611,8 +2564,7 @@ the	O
 actual	O
 gases	O
 of	O
-Sc	O
-O	O
+Sc∼O	O
 102	O
 based	O
 on	O
@@ -2704,7 +2656,7 @@ with	O
 a	O
 natural	B-PROC
 frequency	L-PROC
-f	B-PROC
+ωf	B-PROC
 close	O
 to	O
 that	O
@@ -2712,6 +2664,7 @@ of	O
 the	O
 forcing	B-PROC
 frequency	L-PROC
+ω	B-PROC
 various	O
 examples	O
 of	O
@@ -2723,12 +2676,12 @@ in	O
 Chapters	O
 9	O
 and	O
-f	B-PROC
+10	O
 of	O
 Gill	O
 16	O
-When	B-PROC
-f	B-PROC
+When	O
+ω	B-PROC≈ωf	B-PROC
 there	O
 is	O
 a	O
@@ -2747,7 +2700,7 @@ the	O
 weak	B-PROC
 damping	L-PROC
 and	O
-	
+ω−ωf	O
 Thus	O
 in	O
 numerical	O
@@ -2761,7 +2714,7 @@ anticipate	O
 that	O
 errors	O
 in	O
-f	B-PROC
+ωf	B-PROC
 associated	O
 with	O
 the	O
@@ -2980,12 +2933,7 @@ good	O
 agreement	O
 with	O
 experiments	O
-8	O
-10	O
-12	O
-4	O
-13	O
-9	O
+8,10–12,4,13,9	O
 We	O
 finish	O
 Section	O
@@ -3127,8 +3075,10 @@ as	O
 the	O
 movement	B-PROC
 of	I-PROC
-pendulums	I-PROC
-planets	I-PROC
+pendulums	O
+I-PROC	O
+planets	O
+I-PROC	O
 or	I-PROC
 water	I-PROC
 waves	L-PROC
@@ -3163,8 +3113,7 @@ can	O
 be	O
 found	O
 in	O
-1	O
-19	O
+1,19	O
 This	O
 approach	B-PROC
 allows	O
@@ -3180,8 +3129,10 @@ in	O
 a	O
 single	B-PROC
 functional	L-PROC
+–	O
 the	O
 Lagrangian	B-PROC
+–	O
 which	O
 is	O
 an	O
@@ -3213,7 +3164,7 @@ is	O
 expressed	O
 by	O
 Noether	O
-s	O
+'s	O
 theorem	O
 which	O
 establishes	O
@@ -3437,12 +3388,12 @@ use	O
 of	O
 adaptive	O
 meshes	O
-3	O
-34	O
-38	O
+3,34,38	O
 R-adaptivity	B-PROC
+–	O
 mesh	O
 redistribution	O
+–	O
 involves	O
 deforming	B-PROC
 a	I-PROC
@@ -3537,18 +3488,14 @@ directions	O
 for	O
 r-adaptive	B-PROC
 meshes	L-PROC
-e	O
-g	O
-23	O
-25	O
+e.g	O
+23,25	O
 Alternatively	O
 the	O
 solution	O
 of	O
 the	O
-Monge	O
-Amp	O
-re	B-PROC
+Monge–Ampère	B-PROC
 equation	L-PROC
 to	O
 generate	O
@@ -3610,9 +3557,7 @@ slightly	O
 different	O
 equation	O
 of	O
-Monge	O
-Amp	O
-re	B-PROC
+Monge–Ampère	B-PROC
 type	O
 which	O
 has	O
@@ -3657,8 +3602,8 @@ appropriate	O
 materials	O
 and	O
 geometries	O
-Mock	O
-up	O
+“Mock	O
+up”	O
 PCM	O
 drums	O
 were	O
@@ -3700,8 +3645,7 @@ simulated	O
 using	O
 commercial	O
 grade	O
-18	O
-8	O
+18/8	O
 stainless	O
 steel	O
 aluminium	O
@@ -3734,13 +3678,11 @@ CeO2	O
 from	O
 Acros	O
 Organics	O
-99	O
-9	O
+99.9	O
 dried	O
 15h	O
 at	O
-600	O
-C	O
+600°C	O
 was	O
 used	O
 as	O
@@ -3753,7 +3695,7 @@ ground	O
 granulated	O
 blast-furnace	O
 slag	O
-Calumite	O
+“Calumite”	O
 was	O
 used	O
 as	O
@@ -3787,8 +3729,7 @@ ca	O
 40	O
 to	O
 ca	O
-400	O
-m	O
+400μm	O
 
 There	O
 is	O
@@ -4067,8 +4008,7 @@ oxidation	B-PROC
 At	O
 high	O
 burn-ups	O
-i	O
-e	O
+i.e	O
 extended	O
 service	O
 life	O
@@ -4110,8 +4050,7 @@ curves	O
 separated	O
 by	O
 transitions	O
-1	O
-5	O
+1–5	O
 These	O
 transitions	O
 are	O
@@ -4327,9 +4266,7 @@ matrix	O
 was	O
 defined	O
 by	O
-Na2Al1	O
-xB1	O
-xSi6O16	O
+Na2Al1+xB1–xSi6O16	O
 to	O
 investigate	O
 the	O
@@ -4344,8 +4281,7 @@ crystalline	O
 phase	O
 stability	O
 The	O
-x	O
-1	O
+x=1	O
 end	O
 member	O
 gives	O
@@ -4359,8 +4295,7 @@ point	O
 of	O
 albite	O
 is	O
-1120	O
-C	O
+1120°C	O
 5	O
 and	O
 the	O
@@ -4402,9 +4337,7 @@ relevant	O
 phase	O
 diagram	O
 is	O
-1100	O
-1200	O
-C	O
+1100–1200°C	O
 No	O
 phase	O
 diagrams	O
@@ -4412,10 +4345,7 @@ for	O
 the	O
 quaternary	O
 system	O
-Na2O	O
-Al2O3	O
-B2O3	O
-SiO2	O
+Na2O–Al2O3–B2O3–SiO2	O
 could	O
 be	O
 found	O
@@ -4548,7 +4478,8 @@ Catlow	B-PROC
 potential	I-PROC
 model	L-PROC
 The	O
-Morl	B-PROC
+Morl	O
+B-PROC	O
 along	I-PROC
 with	I-PROC
 the	I-PROC
@@ -4652,8 +4583,7 @@ ductility	O
 and	O
 fracture	O
 toughness	O
-35	O
-40	O
+35–40	O
 These	O
 changes	O
 can	O
@@ -4771,9 +4701,7 @@ hydrostatic	B-PROC
 tensile	I-PROC
 stress	I-PROC
 raiser	L-PROC
-5	O
-41	O
-42	O
+5,41,42	O
 The	O
 process	O
 occurs	O
@@ -4797,9 +4725,7 @@ stress	O
 of	O
 the	O
 material	O
-5	O
-41	O
-42	O
+5,41,42	O
 
 Uranium	O
 carbide	O
@@ -4834,8 +4760,7 @@ IV	O
 nuclear	O
 systems	O
 mixed	O
-uranium	O
-plutonium	O
+uranium–plutonium	O
 carbides	O
 U	O
 Pu	O
@@ -4914,8 +4839,7 @@ the	O
 fuel	O
 is	O
 a	O
-3	O
-1	O
+3:1	O
 ratio	O
 of	O
 UO2	O
@@ -4942,10 +4866,8 @@ tends	O
 to	O
 oxidize	O
 to	O
-UO2	O
-x	O
-UO2	O
-x	O
+UO2+x	O
+UO2+x	O
 reacts	O
 with	O
 the	O
@@ -4957,9 +4879,9 @@ to	O
 the	O
 equilibrium	O
 1	O
-UO2	O
-x	O
+UO2+x	O
 xC	O
+→	O
 UO2	O
 xCO	O
 
@@ -5043,8 +4965,7 @@ than	O
 the	O
 underlying	O
 graphite	O
-12	O
-13	O
+12,13	O
 During	O
 the	O
 lifetime	O
@@ -5207,6 +5128,7 @@ Economic	O
 Cooperation	O
 and	O
 Development	O
+–	O
 Nuclear	O
 Energy	O
 Agency	O
@@ -5217,10 +5139,10 @@ an	O
 ongoing	O
 benchmark	O
 entitled	O
-Uncertainty	O
+“Uncertainty	O
 Analysis	O
 in	O
-Modelling	O
+Modelling”	O
 UAM	O
 related	O
 to	O
@@ -5352,6 +5274,7 @@ to	O
 have	O
 little	O
 impact	O
+–	O
 less	O
 than	O
 10	O
@@ -5451,8 +5374,7 @@ decades	O
 ago	O
 Early	O
 studies	O
-e	O
-g	O
+e.g	O
 Linke	O
 1931	O
 Linke	O
@@ -5543,12 +5465,10 @@ of	O
 the	O
 circumsolar	O
 enhancement	O
-ngstr	O
-m	O
+Ångström	O
 1961	O
 and	O
-ngstr	O
-m	O
+Ångström	O
 and	O
 Rohde	O
 1966	O
@@ -5610,7 +5530,7 @@ led	O
 to	O
 a	O
 relatively	O
-standard	O
+“standard”	O
 geometry	O
 used	O
 in	O
@@ -5630,8 +5550,7 @@ are	O
 discussed	O
 in	O
 Section	O
-3	O
-2	O
+3.2	O
 
 The	O
 wind	B-PROC
@@ -5731,11 +5650,9 @@ for	O
 okta	O
 transitions	O
 between	O
-00	O
-00	O
+00:00	O
 and	O
-05	O
-00am	O
+05:00am	O
 for	O
 each	O
 season	O
@@ -5845,8 +5762,7 @@ the	O
 prediction	O
 of	O
 solar	O
-cell	O
-s	O
+cell’s	O
 temperature	O
 is	O
 very	O
@@ -5925,10 +5841,7 @@ Mean	O
 Square	O
 Error	O
 RMSE	O
-1	O
-7	O
-2	O
-5K	O
+1.7–2.5K	O
 Most	O
 of	O
 the	O
@@ -5974,8 +5887,7 @@ of	O
 the	O
 solar	O
 cells	O
-i	O
-e	O
+i.e	O
 real	O
 operating	O
 conditions	O
@@ -5997,8 +5909,7 @@ on	O
 electrical	O
 parameters	O
 and	O
-Fern	O
-ndez	O
+Fernández	O
 et	O
 al	O
 2014b	O
@@ -6010,12 +5921,8 @@ temperature	O
 with	O
 absolute	O
 RMSE	O
-0	O
-55	O
-1	O
-44K	O
-Fern	O
-ndez	O
+0.55–1.44K	O
+Fernández	O
 et	O
 al	O
 2014a	O
@@ -6052,11 +5959,9 @@ offering	O
 good	O
 accuracy	O
 RMSE	O
-3	O
-2K	O
+3.2K	O
 and	O
-2	O
-5K	O
+2.5K	O
 respectively	O
 Rodrigo	O
 et	O
@@ -6372,8 +6277,7 @@ the	O
 highest	O
 computational	O
 time	O
-i	O
-e	O
+i.e	O
 curved	O
 vessels	O
 is	O
@@ -6384,8 +6288,7 @@ the	O
 most	O
 complex	O
 geometry	O
-i	O
-e	O
+i.e	O
 patient-specific	O
 case	O
 of	O
@@ -6491,7 +6394,8 @@ the	O
 simulations	B-PROC
 
 Gas	B-PROC
-sorption	I-PROC
+sorption	O
+I-PROC	O
 storage	I-PROC
 and	I-PROC
 separation	L-PROC
@@ -6514,9 +6418,10 @@ the	O
 electrostatic	B-PROC
 and	I-PROC
 dispersion	I-PROC
-i	O
-e	I-PROC
-vdW	I-PROC
+i.e	O
+I-PROC	O
+vdW	O
+I-PROC	O
 interactions	L-PROC
 The	O
 former	O
@@ -6785,8 +6690,7 @@ of	O
 pure	O
 geometrical	B-PROC
 considerations	L-PROC
-i	O
-e	O
+i.e	O
 by	O
 assuming	O
 that	O
@@ -6802,8 +6706,7 @@ a	O
 single	B-PROC
 angular	I-PROC
 direction	L-PROC
-38	O
-41	O
+38,41	O
 Continuum	B-PROC
 approaches	L-PROC
 which	O
@@ -6819,8 +6722,7 @@ features	L-PROC
 of	O
 the	O
 film	O
-i	O
-e	O
+i.e	O
 the	O
 nanocolumns	B-PROC
 are	O
@@ -6833,9 +6735,7 @@ size	O
 of	O
 an	O
 atom	O
-42	O
-266	O
-267	O
+42,266,267	O
 have	O
 been	O
 also	O
@@ -7096,8 +6996,7 @@ in	O
 the	O
 cellular	O
 structure	O
-i	O
-e	O
+i.e	O
 where	O
 two	O
 micro-cracks	O
@@ -7199,8 +7098,7 @@ materials	O
 is	O
 utilization	B-PROC
 of	I-PROC
-electron	O
-s	I-PROC
+electron's	I-PROC
 spin	I-PROC
 as	I-PROC
 information	I-PROC
@@ -7248,7 +7146,7 @@ above	O
 room	O
 temperature	O
 That	O
-s	O
+'s	O
 why	O
 the	O
 research	O
@@ -7270,11 +7168,9 @@ on	O
 DMSs	O
 with	O
 different	O
-II	O
-VI	O
+II–VI	O
 and	O
-III	O
-V	O
+III–V	O
 semiconductors	O
 as	O
 host	O
@@ -7289,17 +7185,13 @@ ZnSe	O
 ZnTe	O
 TiO2	O
 SnO2	O
-4	O
-12	O
+4–12	O
 
 It	O
 has	O
 been	O
 known	O
-9	O
-14	O
-18	O
-22	O
+9,14,18,22	O
 that	O
 the	O
 fragmentation	B-PROC
@@ -7345,9 +7237,7 @@ either	O
 enhanced	O
 or	O
 suppressed	O
-14	O
-18	O
-22	O
+14,18,22	O
 Controlling	O
 the	O
 outcome	O
@@ -7401,9 +7291,7 @@ molecular	B-PROC
 system	L-PROC
 under	O
 study	O
-20	O
-22	O
-24	O
+20,22–24	O
 Here	O
 we	O
 report	O
@@ -7535,14 +7423,12 @@ assigned	O
 in	O
 both	O
 solution	O
-8	O
-9	O
+8,9	O
 and	O
 the	O
 solid	O
 state	O
-10	O
-14	O
+10–14	O
 Spectral	B-PROC
 assignments	L-PROC
 have	O
@@ -7553,12 +7439,9 @@ empirical	B-PROC
 force	I-PROC
 fields	L-PROC
 15	O
-Hartree	O
-Fock	B-PROC
+Hartree–Fock	B-PROC
 calculations	L-PROC
-10	O
-16	O
-17	O
+10,16,17	O
 based	O
 on	O
 the	O
@@ -7757,7 +7640,8 @@ Furthermore	O
 static	O
 crystallographic	O
 studies	O
-cannot	O
+can	O
+not	O
 provide	O
 insights	O
 into	O
@@ -7882,8 +7766,7 @@ type	O
 of	O
 through-spacing	B-PROC
 interaction	L-PROC
-Al-O	O
-H2	B-PROC
+Al-O⋯H2	B-PROC
 Interestingly	O
 the	O
 very	O
@@ -8064,8 +7947,7 @@ interpretation	O
 of	O
 photoabsorption	O
 spectra	O
-11	O
-13	O
+11–13	O
 
 Alternatively	O
 to	O
@@ -8114,8 +7996,7 @@ methanol	O
 with	O
 suitable	O
 catalyzers	O
-27	O
-29	O
+27–29	O
 albeit	O
 the	O
 mechanisms	O
@@ -8126,8 +8007,7 @@ are	O
 currently	O
 poorly	O
 understood	O
-30	O
-32	O
+30–32	O
 The	O
 theoretically	O
 predicted	O
@@ -8142,13 +8022,10 @@ BAH	O
 radicals	O
 are	O
 about	O
-2	O
-7eV	O
-2	O
-5eV	O
+2.7eV	O
+2.5eV	O
 and	O
-3	O
-0eV	O
+3.0eV	O
 respectively	O
 see	O
 Fig	O
@@ -8166,8 +8043,7 @@ is	O
 much	O
 lower	O
 about	O
-1	O
-7eV	O
+1.7eV	O
 1	O
 Pyridinyl	O
 is	O
@@ -8455,6 +8331,7 @@ tangential	O
 coefficient	O
 of	O
 restitution	O
+ψ	O
 the	O
 effects	O
 by	O
@@ -8499,8 +8376,10 @@ three	O
 finite	B-PROC
 difference	I-PROC
 schemes	L-PROC
-central	B-PROC
-forward	I-PROC
+central	O
+B-PROC	O
+forward	O
+I-PROC	O
 or	I-PROC
 backward	I-PROC
 differencing	L-PROC
@@ -8525,8 +8404,7 @@ high	B-PROC
 order	I-PROC
 discretisation	I-PROC
 scheme	L-PROC
-e	O
-g	O
+e.g	O
 5th	B-PROC
 order	I-PROC
 WENO	L-PROC
@@ -8662,7 +8540,8 @@ particle	O
 shapes	O
 incorporating	O
 the	O
-drag	B-PROC
+drag	O
+B-PROC	O
 lift	I-PROC
 and	I-PROC
 toque	I-PROC
@@ -8763,8 +8642,7 @@ particles	O
 in	O
 this	O
 horizontal	O
-gas	O
-solid	O
+gas–solid	O
 channel	O
 flow	O
 that	O
@@ -8843,8 +8721,7 @@ the	O
 multiple	O
 versions	O
 available	O
-50	O
-53	O
+50–53	O
 The	O
 fundamental	O
 difference	O
@@ -8903,8 +8780,7 @@ of	O
 the	O
 SAFT	B-PROC
 EoS	L-PROC
-i	O
-e	O
+i.e	O
 the	O
 SAFT-VR	B-PROC
 Mie	L-PROC
@@ -8922,7 +8798,7 @@ a	O
 group	B-PROC
 contribution	I-PROC
 approach	L-PROC
-SAFT	B-PROC
+SAFT-γ	B-PROC
 by	O
 Papaioannou	O
 et	O
@@ -8953,7 +8829,8 @@ known	O
 as	O
 the	O
 m	O
-n	B-PROC
+n	O
+B-PROC	O
 potential	L-PROC
 a	O
 generalized	O
@@ -8974,12 +8851,9 @@ has	O
 the	O
 form	O
 1	O
+ϕ	O
 r	O
-C	O
-r	O
-r	O
-r	O
-awhere	O
+Cεσrλr−σrλawhere	O
 C	O
 is	O
 an	O
@@ -8991,10 +8865,11 @@ repulsive	O
 and	O
 attractive	O
 exponents	O
-a	O
+λa	O
 and	O
-r	O
+λr	O
 respectively	O
+σ	O
 is	O
 a	O
 parameter	O
@@ -9015,6 +8890,7 @@ of	O
 a	O
 Mie	O
 bead	O
+ɛ	O
 defines	O
 the	O
 energy	O
@@ -9064,9 +8940,9 @@ molecule	O
 however	O
 the	O
 exponents	O
-a	O
+λa	O
 and	O
-r	O
+λr	O
 are	O
 intimately	O
 related	O
@@ -9094,8 +8970,7 @@ the	O
 attractive	O
 exponent	O
 to	O
-a	O
-6	O
+λa=6	O
 which	O
 would	O
 be	O
@@ -9121,18 +8996,17 @@ the	O
 repulsive	O
 parameter	O
 as	O
-r	O
+λ=λr	O
 The	O
 potential	O
 simplifies	O
 to	O
 2	O
+ϕ	O
 r	O
-6	O
-66	O
-6	O
-r	O
-r6	O
+λλ−6λ66	O
+λ−6	O
+εσrλ−σr6	O
 
 The	O
 data	B-PROC
@@ -9222,8 +9096,7 @@ to	O
 balance	O
 data	O
 volume	O
-e	O
-g	O
+e.g	O
 simple	O
 univariate	O
 time-series	O
@@ -9240,8 +9113,7 @@ their	O
 respective	O
 information	O
 contents	O
-68	O
-69	O
+68,69	O
 The	O
 raw	O
 data	O
@@ -9276,7 +9148,8 @@ the	O
 broad	O
 categories	O
 of	O
-micro-	B-PROC
+micro	O
+B-PROC	O
 meso-	I-PROC
 and	I-PROC
 macroscopic	I-PROC
@@ -9486,8 +9359,7 @@ in	O
 detail	O
 in	O
 Section	O
-3	O
-1	O
+3.1	O
 a	O
 Rosenblatt	B-PROC
 transformation	L-PROC
@@ -9523,19 +9395,17 @@ Q	O
 f	O
 x	O
 t	O
-TQ	O
-1	O
+TQ−1	O
 TR	O
 R	O
-f	O
+≈fˆ	O
 x	O
 t	O
 R	O
-n	O
-INcn	O
+∑n∈INcn	O
 x	O
 t	O
-n	O
+Φn	O
 R	O
 where	O
 R	O
@@ -9557,9 +9427,8 @@ of	O
 independent	O
 components	O
 Also	O
-n	O
-n	O
-IN	O
+Φn	O
+n∈IN	O
 is	O
 constructed	O
 to	O
@@ -9602,9 +9471,7 @@ if	O
 the	O
 transformation	O
 composition	O
-TQ	O
-1	O
-TR	O
+TQ−1∘TR	O
 is	O
 not	O
 smooth	O
@@ -9625,8 +9492,7 @@ stochastic	O
 variables	O
 and	O
 the	O
-Normal	O
-Nataf	O
+Normal/Nataf	O
 copula	O
 listed	O
 in	O
@@ -9680,9 +9546,8 @@ be	O
 heated	O
 up	O
 around	O
-300	O
-400	O
-C	O
+300–400	O
+°C	O
 by	O
 hot	O
 helium	O
@@ -9691,8 +9556,7 @@ through	O
 the	O
 cooling	O
 system	O
-19	O
-20	O
+19,20	O
 and	O
 also	O
 because	O
@@ -9758,8 +9622,7 @@ of	O
 ITER	O
 carbon	O
 co-deposits	O
-1	O
-3	O
+1–3	O
 so	O
 the	O
 temperatures	O
@@ -9770,13 +9633,12 @@ the	O
 range	O
 of	O
 350	O
-C	O
+°C	O
 for	O
 divertor	O
 and	O
-200	O
-275	O
-C	O
+200–275	O
+°C	O
 for	O
 main	O
 wall	O
@@ -9853,8 +9715,7 @@ for	O
 a	O
 better	O
 device	O
-operation	O
-plasma	O
+operation—plasma	O
 density	O
 control	O
 dust	O
@@ -9920,4 +9781,3 @@ precluded	O
 by	O
 unexpected	O
 reasons	O
-

@@ -1,7 +1,9 @@
+# -*- coding: utf-8 -*-
 #substitutes the only text with tags
 import sys,os,re,codecs
 from nltk.tokenize import TreebankWordTokenizer
 from nltk.tokenize import StanfordTokenizer
+import textblob
 #issue
 #When there are multiple places where same word occurs they should be tagged uniquely
 #For ex when we have n-alkanes and homologenous n-alkanes we tag as n-alkanes=U-MAT and homologenous=B-MAT and n-alkanes=U-MAT
@@ -9,9 +11,9 @@ from nltk.tokenize import StanfordTokenizer
 def tagdata():
     directory = "../tagged_annotation/"
     files = os.listdir(directory)
-    fwrite = open("../tagged_text/dev_corpus.txt", "w+")
+    fwrite = codecs.open("../tagged_text/dev_corpus.txt", "w+","utf-8")
     for file in files:
-        print file
+        #print file
         # if file!="S0022311513011422.ann":
         #     continue
         ff = codecs.open(directory + file, "r","utf-8")
@@ -33,6 +35,11 @@ def tagdata():
         keylist = tempdict.keys()
         keylist.sort()
         perdict={}
+
+        symbols=["!","@","$","%","^","&","=","+","~","`","?"]
+        for i in xrange(0x80, 0xFF):
+            symbols.append(unichr(i))
+        #print len(keylist)
         for i,key in  enumerate(keylist):
             # print key,value
             #print value
@@ -41,9 +48,12 @@ def tagdata():
             end=int(value.split("||")[0])
             value=value.split("||")[1]
             #print str(i)*len(liness[start:end])
-            i = i ** 3
 
-            temp=str(i)*len(liness[start:end])
+
+            i = symbols[i]
+
+
+            temp=(i)*len(liness[start:end])
             temp=temp[0:len(liness[start:end])]
 
             liness=list(liness)
@@ -56,10 +66,11 @@ def tagdata():
 
 
 
-        for key,value in perdict.items():
-            liness=re.sub(r"\b%s\b" % key, value, liness)
 
-        liness=re.sub(r" +"," ",liness)
+        for key,value in perdict.items():
+            #print liness
+            liness=liness.replace(key,value)
+            #liness=re.sub(r"\b%s\b" % key, value, liness)
 
 
 
@@ -90,19 +101,24 @@ def tagdata():
 
         '''
 
-        liness=liness.strip(" ")
-        liness = re.split(r"[^\w\|\-]", liness)
+        liness=textblob.TextBlob(liness)
+        liness= list(liness.words)
         for i in range(len(liness)):
             if "|" not in liness[i]:
-                liness[i]=liness[i]+"|O"
-        #print liness
-        #print " ".join(liness)
-        #sys.exit(0)
+                liness[i]=(liness[i]).encode("utf-8")+"\tO"
+
+
+
+
+
         for i in range(len(liness)):
             if liness[i]!="|O":
-                print>>fwrite,liness[i]
-        print>>fwrite
-        #print>>fwrite," ".join(liness)
+                print liness[i]
+        print
+                #fwrite.write(liness[i].encode("utf-8")+"\n")
+                #.encode("utf-8")
+
+
         '''
         for i in range(len(line)):
             if "|" not in line[i]:
