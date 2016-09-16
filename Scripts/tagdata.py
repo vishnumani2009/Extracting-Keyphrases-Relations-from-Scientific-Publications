@@ -9,7 +9,7 @@ import textblob
 #For ex when we have n-alkanes and homologenous n-alkanes we tag as n-alkanes=U-MAT and homologenous=B-MAT and n-alkanes=U-MAT
 #
 def tagdata():
-    directory = "../tagged_annotation/"
+    directory = "../trainann_tagged/"
     files = os.listdir(directory)
     fwrite = codecs.open("../tagged_text/dev_corpus.txt", "w+","utf-8")
     for file in files:
@@ -18,7 +18,7 @@ def tagdata():
         #     continue
         ff = codecs.open(directory + file, "r","utf-8")
         contents = ff.readlines()
-        ftext =codecs.open("../text/" + file.replace(".ann",".txt"), "r","utf-8")
+        ftext =codecs.open("../train/" + file.replace(".ann",".txt"), "r","utf-8")
         line=ftext.read()
 
 
