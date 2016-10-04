@@ -13,7 +13,7 @@ def tagdata():
     files = os.listdir(directory)
     fwrite = codecs.open("../tagged_text/dev_corpus.txt", "w+","utf-8")
     for file in files:
-        #print file
+        print file
         # if file!="S0022311513011422.ann":
         #     continue
         ff = codecs.open(directory + file, "r","utf-8")
@@ -68,7 +68,7 @@ def tagdata():
 
 
         for key,value in perdict.items():
-            #print liness
+            print liness
             liness=liness.replace(key,value)
             #liness=re.sub(r"\b%s\b" % key, value, liness)
 
@@ -107,7 +107,7 @@ def tagdata():
             if "|" not in liness[i]:
                 liness[i]=(liness[i]).encode("utf-8")+"\tO"
 
-
+        print liness
 
 
 

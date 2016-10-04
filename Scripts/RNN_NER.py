@@ -1,3 +1,4 @@
+
 from __future__ import absolute_import
 from __future__ import print_function
 import numpy as np
@@ -30,6 +31,7 @@ def measure(predict, groundtruth, vocab_label_size, bgn_label_idx):
     fn = []
     recall = 0
     precision = 0
+    print((vocab_label_size))
     for i in range(vocab_label_size):
         tp.append(0)
         fp.append(0)
@@ -38,6 +40,7 @@ def measure(predict, groundtruth, vocab_label_size, bgn_label_idx):
     for i in range(len(groundtruth)):
         if groundtruth[i] == predict[i]:
             tp[groundtruth[i]] += 1
+
         else:
             fp[predict[i]] += 1
             fn[groundtruth[i]] += 1
@@ -167,7 +170,7 @@ def get_data(path, ngram, begin_end_word = True):
     '''
     # read data into arrays (array of arrays)
 
-    train_sentences, train_labels = load_ner_data('dev_corpus_RNN.txt')
+    train_sentences, train_labels = load_ner_data('../tagged_text/dev_corpus_RNN_train.txt')
     X_train, X_test, y_train, y_test = train_test_split(train_sentences, train_labels, test_size=0.33, random_state=42)
     train_sentences, train_labels=X_train,y_train
     testa_sentences, testa_labels = X_test,y_test
@@ -202,6 +205,8 @@ def get_data(path, ngram, begin_end_word = True):
     # generate a dictionary mapped from word / label to its index
     vocab_index_dict = {w: i for i, w in enumerate(vocab)}
     label_index_dict = {l: i for i, l in enumerate(vocab_label)}
+    for k,v in label_index_dict.items():
+        print(k,v)
 
     # convert from words to words' indexes
     train_x = to_vocab_index(vocab_index_dict, train_x)
@@ -229,7 +234,7 @@ ngram = 3
 # download CoNLL 2002 dataset from official website and unzip if local file doesn't exist
 #get_file('http://www.cnts.ua.ac.be/conll2002/ner.tgz')
 
-train_x, train_y, testa_x, testb_x, testa_y, testb_y, vocab, vocab_label, bgn_label_idx = get_data('./ner/data', ngram)
+train_x, train_y, testa_x, testb_x, testa_y, testb_y, vocab, vocab_label, bgn_label_idx = get_data('tagged_text/dev_corpus_RNN_train.txt', ngram)
 # Reserve 0 for masking via pad_sequences
 vocab_size = len(vocab) + 1
 vocab_label_size = len(vocab_label)
